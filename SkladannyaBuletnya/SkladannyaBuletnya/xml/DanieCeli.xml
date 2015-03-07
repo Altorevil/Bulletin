@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<datalist>
+  <data name="VC">
+    <value>11</value>
+  </data>
+  <data name="Fc6">
+    <value>12</value>
+  </data>
+  <data name="Gc6">
+    <value>13</value>
+  </data>
+  <data name="Fc16">
+    <value>14</value>
+  </data>
+  <data name="Gc16">
+    <value>15</value>
+  </data>
+  <data name="FcMore">
+    <value>16</value>
+  </data>
+  <data name="GcMore">
+    <value>17</value>
+  </data>
+  <data name="Sy">
+    <value>18</value>
+  </data>
+  <data name="ZC">
+    <value>19</value>
+  </data>
+  <data name="VS">
+    <value>20</value>
+  </data>
+  <data name="SO">
+    <value>21</value>
+  </data>
+  <data name="Np">
+    <value>22</value>
+  </data>
+  <data name="Yk">
+    <value>23</value>
+  </data>
+  <data name="ZC1">
+    <value>24</value>
+  </data>
+  <data name="ZC2">
+    <value>25</value>
+  </data>
+  <datalist name="VS">
+    <value>42</value>
+  </datalist>
+</datalist>

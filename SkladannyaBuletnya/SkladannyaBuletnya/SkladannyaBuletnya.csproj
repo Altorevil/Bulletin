@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5159A070-07F9-42B5-B51D-250B47D43C36}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkladannyaBuletnya</RootNamespace>
+    <AssemblyName>SkladannyaBuletnya</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus, Version=4.0.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="NumericTextBox">
+      <HintPath>..\..\..\NumericTextBox\NumericTextBox\bin\Debug\NumericTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DannieCeli.cs" />
+    <Compile Include="DMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMK.Designer.cs">
+      <DependentUpon>DMK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GarmataUstanovka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GarmataUstanovka.Designer.cs">
+      <DependentUpon>GarmataUstanovka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gotovnist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gotovnist.Designer.cs">
+      <DependentUpon>Gotovnist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarakterCili.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarakterCili.Designer.cs">
+      <DependentUpon>HarakterCili.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lib\Dashboard.cs" />
+    <Compile Include="lib\Table5.cs" />
+    <Compile Include="lib\TableUtils.cs" />
+    <Compile Include="lib\TableVR2.cs" />
+    <Compile Include="Meteonablyzheniy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meteonablyzheniy.Designer.cs">
+      <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Meteoseredniy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Meteoseredniy.Designer.cs">
+      <DependentUpon>Meteoseredniy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="lib\Table1.cs" />
+    <Compile Include="lib\Table3.cs" />
+    <Compile Include="lib\Table4.cs" />
+    <Compile Include="VR2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VR2.Designer.cs">
+      <DependentUpon>VR2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VytrataNaGarmatu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VytrataNaGarmatu.Designer.cs">
+      <DependentUpon>VytrataNaGarmatu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DMK.resx">
+      <DependentUpon>DMK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GarmataUstanovka.resx">
+      <DependentUpon>GarmataUstanovka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gotovnist.resx">
+      <DependentUpon>Gotovnist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarakterCili.resx">
+      <DependentUpon>HarakterCili.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meteonablyzheniy.resx">
+      <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meteonablyzheniy.tr.resx">
+      <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Meteoseredniy.resx">
+      <DependentUpon>Meteoseredniy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VR2.resx">
+      <DependentUpon>VR2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VytrataNaGarmatu.resx">
+      <DependentUpon>VytrataNaGarmatu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="lib\TC 2C3_Pmin.xlsx" />
+    <None Include="lib\ТС 2С3-Т-90.xlsx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="xml\DanieCeli.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,45 @@
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\SkladannyaBuletnya.exe.config
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\SkladannyaBuletnya.exe
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\SkladannyaBuletnya.pdb
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\NumericTextBox.dll
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\NumericTextBox.pdb
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.DMK.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.GarmataUstanovka.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Gotovnist.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.HarakterCili.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteonablyzheniy.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteoseredniy.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Properties.Resources.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.VR2.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.VytrataNaGarmatu.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.csproj.GenerateResource.Cache
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.exe
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.pdb
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.csprojResolveAssemblyReference.cache
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\EPPlus.dll
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\EPPlus.xml
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\tr\SkladannyaBuletnya.resources.dll
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteonablyzheniy.tr.resources
+D:\Study\Воєнна кафедра\Складання бюлетеня\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\tr\SkladannyaBuletnya.resources.dll
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\SkladannyaBuletnya.exe.config
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.exe
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.pdb
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\SkladannyaBuletnya.exe
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\SkladannyaBuletnya.pdb
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\tr\SkladannyaBuletnya.resources.dll
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\EPPlus.dll
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\EPPlus.xml
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\NumericTextBox.pdb
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.csprojResolveAssemblyReference.cache
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Dmk.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.GarmataUstanovka.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Gotovnist.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.HarakterCili.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteonablyzheniy.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteoseredniy.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Properties.Resources.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.VR2.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.VytrataNaGarmatu.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteonablyzheniy.tr.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.csproj.GenerateResource.Cache
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\tr\SkladannyaBuletnya.resources.dll

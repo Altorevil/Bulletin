@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkladannyaBuletnya", "SkladannyaBuletnya\SkladannyaBuletnya.csproj", "{5159A070-07F9-42B5-B51D-250B47D43C36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericTextBox", "..\..\..\NumericTextBox\NumericTextBox\NumericTextBox.csproj", "{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Debug|x86.ActiveCfg = Debug|x86
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Debug|x86.Build.0 = Debug|x86
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Release|x86.ActiveCfg = Release|x86
+		{5159A070-07F9-42B5-B51D-250B47D43C36}.Release|x86.Build.0 = Release|x86
+		{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AD9908-5C0F-494F-946F-9A8A3ADFE4D0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
