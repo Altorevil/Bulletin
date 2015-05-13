@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using System.Xml;
 using OfficeOpenXml;
 using SkladannyaBuletnya.Properties;
+using SkladannyaBuletnya.lib;
 
 namespace SkladannyaBuletnya
 {
@@ -14,6 +15,8 @@ namespace SkladannyaBuletnya
 
     public partial class Meteonablyzheniy : Form
     {
+        DateTime dT = DateTime.Now;
+
         public Meteonablyzheniy()
         {
             InitializeComponent();
@@ -42,6 +45,35 @@ namespace SkladannyaBuletnya
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 0;
             comboBox3.SelectedIndex = 0;
+
+            textDay1.Text = textDay.Text = Convert.ToString(dT.Day); //Автоматичне виведення системного часу до textBox
+            textHours1.Text = textHours.Text = Convert.ToString(dT.Hour);
+            textMinutes1.Text = textMinutes.Text = Convert.ToString(dT.Minute);
+
+            //for meteoseredny
+            name_of_station.Text = Convert.ToString("1104");
+            textDate.Text = Convert.ToString("22093");
+            text_hmc.Text = Convert.ToString("1800");
+            text_delH_delt0.Text = Convert.ToString("64858");
+
+            value_t_dlW_Wy_1.Text = Convert.ToString("593907");
+            value_t_dlW_Wy_2.Text = Convert.ToString("603908");
+            value_t_dlW_Wy_3.Text = Convert.ToString("614107");
+            value_t_dlW_Wy_4.Text = Convert.ToString("634110");
+            value_t_dlW_Wy_5.Text = Convert.ToString("644210");
+            value_t_dlW_Wy_6.Text = Convert.ToString("654412");
+            value_t_dlW_Wy_7.Text = Convert.ToString("664413");
+            value_t_dlW_Wy_8.Text = Convert.ToString("674514");
+            value_t_dlW_Wy_9.Text = Convert.ToString("674614");
+            value_t_dlW_Wy_10.Text = Convert.ToString("674715");
+            value_t_dlW_Wy_11.Text = Convert.ToString("674715");
+
+            //  приховання кнопок вкладок tabControl2 
+            tabControl2.DrawMode = TabDrawMode.OwnerDrawFixed;
+            tabControl2.Appearance = TabAppearance.Buttons;
+            tabControl2.ItemSize = new System.Drawing.Size(0, 1);
+            tabControl2.SizeMode = TabSizeMode.Fixed;
+            tabControl2.TabStop = false;
         }
 
         #region Метеонаближений
@@ -52,9 +84,11 @@ namespace SkladannyaBuletnya
             buttonVR2.BackColor = Color.WhiteSmoke;
             buttonMeteoSer.BackColor = Color.WhiteSmoke;
 
-            Dmk dmk = new Dmk();
+            this.tabControl2.SelectedTab = this.tabPage4;
 
-            dmk.ShowDialog();              
+            tabPage4.Enabled = true;
+            tabPage6.Enabled = false; ;
+            tabPage7.Enabled = false;         
         }
 
         private void buttonVR2_Click(object sender, EventArgs e) //Виклик форми "ВР-2"
@@ -63,9 +97,11 @@ namespace SkladannyaBuletnya
             buttonDMK.BackColor = Color.WhiteSmoke;
             buttonMeteoSer.BackColor = Color.WhiteSmoke;
 
-            VR2 vr2 = new VR2();
+            this.tabControl2.SelectedTab = this.tabPage6;
 
-            vr2.ShowDialog(); 
+            tabPage4.Enabled = false;
+            tabPage6.Enabled = true;
+            tabPage7.Enabled = false;
         }
 
         private void buttonMeteoSer_Click(object sender, EventArgs e) //Виклик форми "Метеосередній"
@@ -74,10 +110,867 @@ namespace SkladannyaBuletnya
             buttonVR2.BackColor = Color.WhiteSmoke;
             buttonDMK.BackColor = Color.WhiteSmoke;
 
-            Meteoseredniy metser = new Meteoseredniy();
+            this.tabControl2.SelectedTab = this.tabPage7;
 
-            metser.ShowDialog();
+            tabPage4.Enabled = false;
+            tabPage6.Enabled = false;
+            tabPage7.Enabled = true;
          }
+
+        // for DMK
+        private void DMK_Shown(object sender, EventArgs e)
+        {
+            textDay.Focus();
+        }
+
+
+        private void buttonSkladBul_Click(object sender, EventArgs e) //Скласти бюлетень для ДМК
+        {
+            if (ValidateChildren(ValidationConstraints.Enabled))
+            {
+                int day = Convert.ToInt32(textDay.Text);
+
+                int hours = Convert.ToInt32(textHours.Text);
+
+                Double minutes = Convert.ToDouble(textMinutes.Text);
+                minutes = Math.Round(minutes / 10);
+
+                int Hmc = Convert.ToInt32(textHmc.Text);
+
+                int H0 = Convert.ToInt32(textH0.Text);
+
+                int t0 = Convert.ToInt32(textT0.Text);
+
+                Double aW0 = Convert.ToDouble(textAW0.Text);
+                aW0 = Math.Round(aW0 / 6); //Переведення в радіани
+
+                Double[] delTauY = new Double[9];
+                Double delH0 = H0 - 750;
+                Double delH0V = delH0;
+                if (delH0 < 0)
+                {
+                    delH0V = 500.0d + Math.Abs(delH0V);
+                }
+
+                Double delTv = Table1.GetDelTv(t0);
+                Double tau0 = t0 + delTv;
+                Double delTau0mp = tau0 - 15.9;
+                Double delTau0mpV = delTau0mp;
+                if (delTau0mpV < 0)
+                {
+                    delTau0mpV = 50.0d + Math.Abs(delTau0mpV);
+                }
+
+                Double[] awy = new Double[9];
+                Double[] wy = new Double[9];
+
+                Table5 tf = new Table5();
+                delTauY = tf.DelForOutput(delTau0mp);
+                Double[] Y = tf.Y;
+
+                Double W0 = Convert.ToInt32(textW0.Text);
+                awy = tf.AwForOut(aW0);
+                if (W0 == 0 || W0 == 1)
+                {
+                    for (int i = 0; i < wy.Length; i++)
+                    {
+                        wy[i] = 0;
+                    }
+                }
+                else
+                {
+                    wy = tf.WyForOut(W0);
+                }
+                textBulletin.Clear();
+                textBulletin.Text = ("Метеонаближений - ");
+                textBulletin.Text += Convert.ToString(day.ToString("00"));
+                textBulletin.Text += (hours.ToString("00"));
+                textBulletin.Text += (minutes.ToString("0") + " - ");
+                textBulletin.Text += (Hmc.ToString("0000") + " - ");
+                textBulletin.Text += (delH0V.ToString("000"));
+                textBulletin.Text += (delTau0mpV.ToString("00") + " - ");
+                for (int i = 0; i < 9; i++)
+                {
+                    Y[i] = Y[i] / 100;
+                    textBulletin.Text += Convert.ToString("\r\n" + Y[i].ToString("00") + "-" + Math.Round(delTauY[i]).ToString("00") + Math.Round(awy[i]).ToString("00") + Math.Round(wy[i]).ToString("00") + "- ");
+                }
+
+                // buttonApplyDMK.Enabled = true;
+            }
+        }
+
+        
+
+        private void button33_Click(object sender, EventArgs e) //Скласти бюлетень для ВР-2
+        {
+            if (ValidateChildren(ValidationConstraints.Enabled))
+            {
+
+                int day = Convert.ToInt32(textDay1.Text);
+
+                int hours = Convert.ToInt32(textHours1.Text);
+
+                Double minutes = Convert.ToDouble(textMinutes1.Text);
+                minutes = Math.Round(minutes / 10);
+
+                int Hmc = Convert.ToInt32(textHmc1.Text);
+
+                int H0 = Convert.ToInt32(textH01.Text);
+
+                int t0 = Convert.ToInt32(textT01.Text);
+
+                Double aW0 = Convert.ToDouble(textAW01.Text);
+                aW0 = Math.Round(aW0 / 6); //Переведення в радіани
+
+                Double[] delTauY = new Double[9];
+                Double delH0 = H0 - 750;
+                Double delH0V = delH0;
+                if (delH0 < 0)
+                {
+                    delH0V = 500.0d + Math.Abs(delH0V);
+                }
+
+                Double delTv = Table1.GetDelTv(t0);
+                Double tau0 = t0 + delTv;
+                Double delTau0mp = tau0 - 15.9;
+                Double delTau0mpV = delTau0mp;
+                if (delTau0mpV < 0)
+                {
+                    delTau0mpV = 50.0d + Math.Abs(delTau0mpV);
+                }
+
+                Double[] awy = new Double[9];
+                Double[] wy = new Double[9];
+
+                Table5 tf = new Table5();
+                TableVR2 tvr2 = new TableVR2();
+
+                delTauY = tf.DelForOutput(delTau0mp);
+                Double[] Y = tf.Y;
+
+                Double dzk = Convert.ToInt32(textDalnZnosuKul.Text);
+                awy = tvr2.AwForOut(aW0);
+                if (dzk >= 0 && dzk < 40)
+                {
+                    for (int i = 0; i < wy.Length; i++)
+                    {
+                        wy[i] = 0;
+                    }
+                }
+                else
+                {
+                    wy = tvr2.WyForOut(dzk);
+                }
+
+                //Виведення бюлетня
+                textBulletin.Clear();
+                textBulletin.Text = ("Метеонаближений - ");
+                textBulletin.Text += Convert.ToString(day.ToString("00"));
+                textBulletin.Text += (hours.ToString("00"));
+                textBulletin.Text += (minutes.ToString("0") + " - ");
+                textBulletin.Text += (Hmc.ToString("0000") + " - ");
+                textBulletin.Text += (delH0V.ToString("000"));
+                textBulletin.Text += (delTau0mpV.ToString("00") + " - ");
+                for (int i = 0; i < 9; i++)
+                {
+                    Y[i] = Y[i] / 100;
+                    textBulletin.Text += Convert.ToString("\r\n" + Y[i].ToString("00") + "-" + Math.Round(delTauY[i]).ToString("00") + Math.Round(awy[i]).ToString("00") + Math.Round(wy[i]).ToString("00") + "- ");
+                }
+                //buttonApplyVR2.Enabled = true;
+            }            
+        }
+
+        //for Meteoseredniy
+
+        public void buttonApply2_Click(object sender, EventArgs e)
+        {
+            if (ValidateChildren(ValidationConstraints.Enabled))
+            {
+                int hb = 2440;
+                int mumber_of_stantion = Convert.ToInt32(name_of_station.Text);
+                int date = Convert.ToInt32(textDate.Text);
+                int Hmc = Convert.ToInt32(text_hmc.Text);
+                int del_h_t = Convert.ToInt32(text_delH_delt0.Text);
+
+                int tem = del_h_t % 100;
+                del_h_t = del_h_t / 100;
+                int del_h = del_h_t % 1000;
+
+                textBulletin.Text = Convert.ToString(del_h_t) + "\n\r--";
+
+                int[] high = new int[11] { 2, 4, 8, 12, 16, 20, 24, 30, 40, 50, 60 };
+
+                int[] del_t = new int[11] { Convert.ToInt32(value_t_dlW_Wy_1.Text), Convert.ToInt32(value_t_dlW_Wy_2.Text), Convert.ToInt32(value_t_dlW_Wy_3.Text), Convert.ToInt32(value_t_dlW_Wy_4.Text), Convert.ToInt32(value_t_dlW_Wy_5.Text), Convert.ToInt32(value_t_dlW_Wy_6.Text), Convert.ToInt32(value_t_dlW_Wy_7.Text), Convert.ToInt32(value_t_dlW_Wy_8.Text), Convert.ToInt32(value_t_dlW_Wy_9.Text), Convert.ToInt32(value_t_dlW_Wy_10.Text), Convert.ToInt32(value_t_dlW_Wy_11.Text) };
+
+                int[] delt0 = new int[11];
+                
+                for (int i = 0; i < 11; i++)
+                {
+                    delt0[i] = del_t[i] % 10000;
+                    del_t[i] = del_t[i] / 10000;
+                    // del_h[i] = del_t[i] % 1000;
+                    textBulletin.Text += Convert.ToString(del_t[i]) + "\n\r--";
+                }
+                
+                int del_Yst, q;
+                if (Math.Abs(2 * (Hmc - hb)) > 200)
+                {
+                    del_Yst = 2 * (Hmc - hb);
+                    q = del_Yst % 100; ;
+                    if (del_Yst >= 0)
+                    {
+                        if (q > 50)
+                        {
+                            q = 100 - q;
+                            del_Yst = del_Yst + q;
+                        }
+                        else
+                        { del_Yst = del_Yst - q; }
+                    }
+                    else
+                    {
+                        if (q >= -50) { del_Yst = del_Yst - q; }
+                        else
+                        {
+                            q = -100 - q;
+                            del_Yst = del_Yst + q;
+                        }
+                    }
+
+                    // textBulletin.Text += Convert.ToString(del_Yst);
+                    for (int i = 0; i < 11; i++)
+                    {
+                        high[i] = high[i] * 100 + del_Yst;
+                        //  textBulletin.Text += Convert.ToString(high[i]);
+                    }
+                }
+
+                int tem1;
+
+                if (tem > 50)
+                {
+                    tem1 = -(tem - 50);
+                }
+                else
+                {
+                    tem1 = tem;
+                }
+
+                int delat_t = (int)(Math.Round(0.006 * (Hmc - hb)));
+
+                if (tem <= 50)
+                {
+                    if ((tem + delat_t) >= 0)
+                    {
+                        tem = tem + delat_t;
+                    }
+                    else { tem = Math.Abs(tem + delat_t) + 50; }
+                }
+                else
+                {
+                    if (delat_t <= 0)
+                    {
+                        tem = tem + Math.Abs(delat_t);
+                    }
+                    else
+                    {
+                        if ((tem - delat_t) < 51) { tem = 50 - (tem - delat_t); }
+                        else { tem = tem + Math.Abs(delat_t); }
+                    }
+                }
+
+                for (int i = 0; i < 11; i++)
+                {
+                    if (del_t[i] <= 50)
+                    {
+                        if ((delat_t + del_t[i]) >= 0)
+                        {
+                            del_t[i] = del_t[i] + delat_t;
+                        }
+                        else { del_t[i] = Math.Abs(del_t[i] + delat_t) + 50; }
+                    }
+                    else
+                    {
+                        if (delat_t <= 0)
+                        {
+                            del_t[i] = del_t[i] + Math.Abs(delat_t);
+                        }
+                        else
+                        {
+                            if ((del_t[i] - delat_t) < 51) { del_t[i] = 50 - (del_t[i] - delat_t); }
+                            else { del_t[i] = del_t[i] + Math.Abs(delat_t); }
+                        }
+                    }
+                }
+
+                double del_H;
+                double B;
+
+
+                if (del_h > 500)
+                {
+                    del_h = -(del_h - 500);
+                }
+                textBulletin.Text += Convert.ToString(tem1) + "\n--<>---";
+               
+                Meteoseredniy_iterpol interpolation = new Meteoseredniy_iterpol();
+                
+                interpolation.input(del_h, tem1, del_h, out B);
+                if (B == -1) { MessageBox.Show("Файл із значенням барометричних ступенів не існує!   результат не правильний"); }
+
+                textBulletin.Text += Convert.ToString(B) + "\n<->";
+               
+                if (Math.Abs(Hmc - hb) > 500)
+                {
+                    del_H = (del_h + (Hmc - hb) / (2 * B));
+                }
+
+                interpolation.input(del_h, tem1, del_h, out del_H);
+
+                del_h = del_h + (int)(Math.Round((Hmc - hb) / B));
+                if (del_h < 0)
+                {
+                    del_h = -(del_h - 500);
+                }
+                /*for (int l = 0; l < 11; l++)
+                {
+                    high[l] = high[l] * 100;
+                }
+                */
+
+                if (tem > 99) { tem = 99; }
+
+                textBulletin.Clear();
+                textBulletin.Text += ("Метео - ");
+                textBulletin.Text += Convert.ToString(mumber_of_stantion.ToString("00")) + " - ";
+                //textBulletin.Text += (date.ToString("00"));
+                textBulletin.Text += (date.ToString("0") + " - ");
+                textBulletin.Text += (Hmc.ToString("0000") + " - ");
+                textBulletin.Text += (del_h.ToString("000"));
+                textBulletin.Text += (tem.ToString("00") + " - ");
+                for (int i = 0; i < 11; i++)
+                {
+                    high[i] = high[i] / 100;
+                    if (high[i] > 0)
+                    {
+                        textBulletin.Text += Convert.ToString("\r\n" + high[i].ToString("00") + "-" + del_t[i].ToString("00") + delt0[i].ToString("00") + "- ");
+                    }
+                }
+                // buttonApplyDMeteoseredniy.Enabled = true;
+            }
+        }
+
+
+        private void name_of_station_Validating(object sender, CancelEventArgs e)
+        {
+            if (name_of_station.Text.Length != 0)
+            {
+
+                int numer_station = Convert.ToInt32(name_of_station.Text.Length);
+                if (numer_station >4 || numer_station <4)
+                {
+                    this.errorMain.SetError(name_of_station, "Введено забагато чисел  \n                                     0-9999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(name_of_station, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(name_of_station, "Введіть номер станції");
+                e.Cancel = true;
+            }
+
+        }
+
+        private void textDay_Validating(object sender, CancelEventArgs e)
+        {
+            if (textDay.Text.Length != 0)
+            {
+                int day = Convert.ToInt32(textDay.Text);
+                if (day < 1 || day > 31)
+                {
+                    errorMain.SetError(textDay, "Введено невірне число місяця  \n                                    1-31");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textDay, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textDay, "Введіть число місяця");
+                e.Cancel = true;
+            }
+        }
+
+        private void textHours_Validating(object sender, CancelEventArgs e)
+        {
+            if (textHours.Text.Length != 0)
+            {
+                int hours = Convert.ToInt32(textHours.Text);
+                if (hours < 0 || hours > 23)
+                {
+                    errorMain.SetError(textHours, "Введено невірну кількість годин  \n                                    0-23");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textHours, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textHours, "Введіть кількість годин");
+                e.Cancel = true;
+            }
+        }
+
+        private void textMinutes_Validating(object sender, CancelEventArgs e)
+        {
+            if (textMinutes.Text.Length != 0)
+            {
+                int minutes = Convert.ToInt32(textMinutes.Text);
+                if (minutes < 0 || minutes > 59)
+                {
+                    errorMain.SetError(textMinutes, "Введено невірну кількість хвилин  \n                                    0-59");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textMinutes, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textMinutes, "Введіть кількість хвилин");
+                e.Cancel = true;
+            }
+        }
+
+        private void textHmc_Validating_1(object sender, CancelEventArgs e)
+        {
+            if (textHmc.Text.Length != 0)
+            {
+                int hmc = Convert.ToInt32(textHmc.Text);
+                if (hmc < 0 || hmc > 9999)
+                {
+                    errorMain.SetError(textHmc, "Введено невірне значення висоти метеопосту \n                                    0-9999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textHmc, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textHmc, "Введіть значення висоти метеопосту");
+                e.Cancel = true;
+            }
+        }
+
+        private void textH0_Validating(object sender, CancelEventArgs e)
+        {
+            if (textH0.Text.Length != 0)
+            {
+                int h0 = Convert.ToInt32(textH0.Text);
+                if (h0 < 500 || h0 > 800)
+                {
+                    errorMain.SetError(textH0, "Введено невірне значення атмосферного тиску \n                                    500-800");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textH0, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textH0, "Введіть значення атмосферного тиску");
+                e.Cancel = true;
+            }
+        }
+
+        private void textT0_Validating(object sender, CancelEventArgs e)
+        {
+            if (textT0.Text.Length != 0)
+            {
+                int t0 = Convert.ToInt32(textT0.Text);
+                if (t0 < -50 || t0 > 50)
+                {
+                    errorMain.SetError(textT0, "Введено невірне значення температури повітря \n                                    -50 - +50");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textT0, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textT0, "Введіть значення температури повітря");
+                e.Cancel = true;
+            }
+        }
+
+        private void textAW0_Validating(object sender, CancelEventArgs e)
+        {
+            if (textAW0.Text.Length != 0)
+            {
+                int aw0 = Convert.ToInt32(textAW0.Text);
+                if (aw0 < 0 || aw0 > 360)
+                {
+                    errorMain.SetError(textAW0, "Введено невірне значення напрямку середнього вітру \n                                    0-360");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textAW0, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textAW0, "Введіть значення напрямку середнього вітру");
+                e.Cancel = true;
+            }
+        }
+
+        private void textW0_Validating(object sender, CancelEventArgs e)
+        {
+            if (textW0.Text.Length != 0)
+            {
+                int w0 = Convert.ToInt32(textW0.Text);
+                if (w0 < 0 || w0 > 15)
+                {
+                    errorMain.SetError(textW0, "Введено невірне значення швидкості середнього вітру \n                                    0-15");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textW0, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textW0, "Введіть значення швидкості середнього вітру");
+                e.Cancel = true;
+            }
+        }
+
+        private void textDalnZnosuKul_Validating(object sender, CancelEventArgs e)
+        {
+            if (textDalnZnosuKul.Text.Length != 0)
+            {
+                int dzk = Convert.ToInt32(textDalnZnosuKul.Text);
+                if (dzk < 0 || dzk > 150)
+                {
+                    errorMain.SetError(textDalnZnosuKul, "Введено невірне значення дальності зносу куль \n                                    0-150");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    errorMain.SetError(textDalnZnosuKul, "");
+                }
+            }
+            else
+            {
+                errorMain.SetError(textDalnZnosuKul, "Введіть значення дальності зносу куль");
+                e.Cancel = true;
+            }
+        }
+
+        private void text_delH_delt0_Validating(object sender, CancelEventArgs e)
+        {
+            if (text_delH_delt0.Text.Length != 0)
+            {
+                int h_t = Convert.ToInt32(text_delH_delt0.Text);
+
+                int tem = h_t % 100;
+                h_t = h_t / 100;
+                int del_h = h_t % 1000;
+
+                h_t = Convert.ToInt32(text_delH_delt0.Text.Length);
+
+                if ((tem == 50 || del_h < 0 || del_h > 750||(del_h > 50 && del_h < 501)) || h_t != 5)/*del_h > 74 */
+                {
+                    this.errorMain.SetError(text_delH_delt0, "Введено невірне значення. Наприклад 64858, h=648 t=58 , де t не повино дорівнювати 50, \n а 0<=h<=50 i 501=<h<=750, або забагато цифр ");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(text_delH_delt0, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(text_delH_delt0, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_1_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_1.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_1.Text.Length);
+                if (del!=6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_1, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_1, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_1, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_2_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_2.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_2.Text.Length);
+                if (del != 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_2, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_2, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_2, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_3_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_3.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_3.Text.Length);
+                if (del != 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_3, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_3, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_3, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_4_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_4.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_4.Text.Length);
+                if (del != 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_4, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_4, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_4, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_5_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_5.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_5.Text.Length);
+                if (del != 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_5, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_5, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_5, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_6_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_6.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_6.Text.Length);
+                if (del!= 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_6, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_6, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_6, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_7_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_7.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_7.Text.Length);
+                if (del!= 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_7, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_7, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_7, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_8_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_8.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_8.Text.Length);
+                if (del != 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_8, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_8, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_8, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_9_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_9.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_9.Text.Length);
+                if (del!= 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_9, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_9, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_9, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_10_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_10.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_10.Text.Length);
+                if (del!= 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_10, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_10, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_10, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        private void value_t_dlW_Wy_11_Validating(object sender, CancelEventArgs e)
+        {
+            if (value_t_dlW_Wy_11.Text.Length != 0)
+            {
+                int del = Convert.ToInt32(value_t_dlW_Wy_11.Text.Length);
+                if (del != 6)
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_11, "Введено невірне значення \n                                    0-999999");
+                    e.Cancel = true;
+                }
+                else
+                {
+                    this.errorMain.SetError(value_t_dlW_Wy_11, "");
+                }
+            }
+            else
+            {
+                this.errorMain.SetError(value_t_dlW_Wy_11, "Введіть значення");
+                e.Cancel = true;
+            }
+        }
+
+        
+        //for file
+        int i;
+        string path;
+         private void zastosuvaty_Click(object sender, EventArgs e)
+         {   
+             i = 0;
+             do
+             {
+                 i++;
+                 path = @"..\\..\\..\\meteo\\Метео_" + i + ".txt";
+             } while (File.Exists(path));
+             StreamWriter wr = new StreamWriter(path);
+             wr.WriteLine(textBulletin.Text);
+             wr.Close();
+         }
+          
         #endregion
 
         #region Бойовий порядок
@@ -1950,32 +2843,37 @@ namespace SkladannyaBuletnya
 
         private void tabPage3_Validating(object sender, CancelEventArgs e)
         {
-            DialogResult result2 = MessageBox.Show(Resources.Meteonablyzheniy_tabPage5_Validating_Підтвердити_зміни_, @"Команда старшого начальника",
+            /*DialogResult result2 = MessageBox.Show(Resources.Meteonablyzheniy_tabPage5_Validating_Підтвердити_зміни_, @"Команда старшого начальника",
             MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (result2 == DialogResult.Cancel)
             {
                     e.Cancel = true;
-            }
+            }*/
         }
 
         private void textKolBP5_Validating(object sender, CancelEventArgs e)
         {
-            DialogResult result2 = MessageBox.Show(Resources.Meteonablyzheniy_tabPage5_Validating_Підтвердити_зміни_, @"Бойовий порядок",
+            /*DialogResult result2 = MessageBox.Show(Resources.Meteonablyzheniy_tabPage5_Validating_Підтвердити_зміни_, @"Бойовий порядок",
             MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (result2 == DialogResult.Cancel)
             {
                 e.Cancel = true;
-            }
+            }*/
         }
 
         private void tabPage5_Validating(object sender, CancelEventArgs e)
         {
-            DialogResult result2 = MessageBox.Show(Resources.Meteonablyzheniy_tabPage5_Validating_Підтвердити_зміни_, @"Команда командира батареї",
+            /*DialogResult result2 = MessageBox.Show(Resources.Meteonablyzheniy_tabPage5_Validating_Підтвердити_зміни_, @"Команда командира батареї",
             MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             if (result2 == DialogResult.Cancel)
             {
                 e.Cancel = true;
-            }
+            }*/
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
+        {
+
         }
         
 

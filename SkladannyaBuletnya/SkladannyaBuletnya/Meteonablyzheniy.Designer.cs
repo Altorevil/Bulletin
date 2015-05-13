@@ -680,10 +680,105 @@ namespace SkladannyaBuletnya
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.zastosuvaty = new System.Windows.Forms.Button();
+            this.tabControl2 = new System.Windows.Forms.TabControl();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.textAW0 = new numericTextBox.NumericTextBox(this.components);
+            this.textT0 = new numericTextBox.NumericTextBox(this.components);
+            this.textH0 = new numericTextBox.NumericTextBox(this.components);
+            this.textHmc = new numericTextBox.NumericTextBox(this.components);
+            this.textMinutes = new numericTextBox.NumericTextBox(this.components);
+            this.textHours = new numericTextBox.NumericTextBox(this.components);
+            this.textDay = new numericTextBox.NumericTextBox(this.components);
+            this.labelGradus = new System.Windows.Forms.Label();
+            this.labelNaprSerVitru = new System.Windows.Forms.Label();
+            this.label241 = new System.Windows.Forms.Label();
+            this.label242 = new System.Windows.Forms.Label();
+            this.label243 = new System.Windows.Forms.Label();
+            this.label244 = new System.Windows.Forms.Label();
+            this.label245 = new System.Windows.Forms.Label();
+            this.label246 = new System.Windows.Forms.Label();
+            this.label247 = new System.Windows.Forms.Label();
+            this.label248 = new System.Windows.Forms.Label();
+            this.label249 = new System.Windows.Forms.Label();
+            this.label250 = new System.Windows.Forms.Label();
+            this.textW0 = new numericTextBox.NumericTextBox(this.components);
+            this.buttonSkladBul = new System.Windows.Forms.Button();
+            this.labelMSec = new System.Windows.Forms.Label();
+            this.labelShvSerVitru = new System.Windows.Forms.Label();
+            this.label251 = new System.Windows.Forms.Label();
+            this.label252 = new System.Windows.Forms.Label();
+            this.label253 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.textDalnZnosuKul = new numericTextBox.NumericTextBox(this.components);
+            this.textHmc1 = new numericTextBox.NumericTextBox(this.components);
+            this.textMinutes1 = new numericTextBox.NumericTextBox(this.components);
+            this.textHours1 = new numericTextBox.NumericTextBox(this.components);
+            this.textDay1 = new numericTextBox.NumericTextBox(this.components);
+            this.label254 = new System.Windows.Forms.Label();
+            this.label255 = new System.Windows.Forms.Label();
+            this.label256 = new System.Windows.Forms.Label();
+            this.label257 = new System.Windows.Forms.Label();
+            this.label258 = new System.Windows.Forms.Label();
+            this.label259 = new System.Windows.Forms.Label();
+            this.label260 = new System.Windows.Forms.Label();
+            this.label261 = new System.Windows.Forms.Label();
+            this.label262 = new System.Windows.Forms.Label();
+            this.label263 = new System.Windows.Forms.Label();
+            this.label264 = new System.Windows.Forms.Label();
+            this.label265 = new System.Windows.Forms.Label();
+            this.button33 = new System.Windows.Forms.Button();
+            this.labelM = new System.Windows.Forms.Label();
+            this.labelDalnistZnosuKul = new System.Windows.Forms.Label();
+            this.label266 = new System.Windows.Forms.Label();
+            this.label267 = new System.Windows.Forms.Label();
+            this.label268 = new System.Windows.Forms.Label();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.value_t_dlW_Wy_11 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_10 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_9 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_8 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_7 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_6 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_5 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_4 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_3 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_2 = new System.Windows.Forms.TextBox();
+            this.value_t_dlW_Wy_1 = new System.Windows.Forms.TextBox();
+            this.text_delH_delt0 = new System.Windows.Forms.TextBox();
+            this.text_hmc = new System.Windows.Forms.TextBox();
+            this.textDate = new System.Windows.Forms.TextBox();
+            this.name_of_station = new System.Windows.Forms.TextBox();
+            this.label269 = new System.Windows.Forms.Label();
+            this.label_60 = new System.Windows.Forms.Label();
+            this.label_50 = new System.Windows.Forms.Label();
+            this.buttonApply2 = new System.Windows.Forms.Button();
+            this.label_40 = new System.Windows.Forms.Label();
+            this.label_30 = new System.Windows.Forms.Label();
+            this.label_24 = new System.Windows.Forms.Label();
+            this.label_20 = new System.Windows.Forms.Label();
+            this.label_16 = new System.Windows.Forms.Label();
+            this.label_12 = new System.Windows.Forms.Label();
+            this.label_08 = new System.Windows.Forms.Label();
+            this.label_04 = new System.Windows.Forms.Label();
+            this.label_02 = new System.Windows.Forms.Label();
+            this.label_4 = new System.Windows.Forms.Label();
+            this.label_3 = new System.Windows.Forms.Label();
+            this.label_2 = new System.Windows.Forms.Label();
+            this.label_1 = new System.Windows.Forms.Label();
+            this.labelMeteoSer = new System.Windows.Forms.Label();
+            this.label270 = new System.Windows.Forms.Label();
+            this.textBulletin = new System.Windows.Forms.TextBox();
             this.buttonDMK = new System.Windows.Forms.Button();
             this.buttonMeteoSer = new System.Windows.Forms.Button();
             this.buttonVR2 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.numericTextBox113 = new numericTextBox.NumericTextBox(this.components);
+            this.numericTextBox114 = new numericTextBox.NumericTextBox(this.components);
+            this.numericTextBox112 = new numericTextBox.NumericTextBox(this.components);
+            this.textH01 = new numericTextBox.NumericTextBox(this.components);
+            this.textT01 = new numericTextBox.NumericTextBox(this.components);
+            this.textAW01 = new numericTextBox.NumericTextBox(this.components);
             this.contextNaCil.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel.SuspendLayout();
@@ -716,6 +811,10 @@ namespace SkladannyaBuletnya
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage1.SuspendLayout();
+            this.tabControl2.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -5581,7 +5680,7 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconPadding(this.button1, ((int)(resources.GetObject("button1.IconPadding"))));
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button33_Click);
             // 
             // buttonVV6
             // 
@@ -6190,7 +6289,6 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.tabBP, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabBP.IconAlignment"))));
             this.errorMain.SetIconPadding(this.tabBP, ((int)(resources.GetObject("tabBP.IconPadding"))));
             this.tabBP.Name = "tabBP";
-            this.tabBP.Validating += new System.ComponentModel.CancelEventHandler(this.textKolBP5_Validating);
             // 
             // dataGridView2
             // 
@@ -7513,6 +7611,10 @@ namespace SkladannyaBuletnya
             // 
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.BackColor = System.Drawing.Color.SkyBlue;
+            this.tabPage1.Controls.Add(this.zastosuvaty);
+            this.tabPage1.Controls.Add(this.tabControl2);
+            this.tabPage1.Controls.Add(this.label270);
+            this.tabPage1.Controls.Add(this.textBulletin);
             this.tabPage1.Controls.Add(this.buttonDMK);
             this.tabPage1.Controls.Add(this.buttonMeteoSer);
             this.tabPage1.Controls.Add(this.buttonVR2);
@@ -7520,6 +7622,829 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.tabPage1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabPage1.IconAlignment"))));
             this.errorMain.SetIconPadding(this.tabPage1, ((int)(resources.GetObject("tabPage1.IconPadding"))));
             this.tabPage1.Name = "tabPage1";
+            // 
+            // zastosuvaty
+            // 
+            resources.ApplyResources(this.zastosuvaty, "zastosuvaty");
+            this.errorMain.SetError(this.zastosuvaty, resources.GetString("zastosuvaty.Error"));
+            this.errorMain.SetIconAlignment(this.zastosuvaty, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("zastosuvaty.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.zastosuvaty, ((int)(resources.GetObject("zastosuvaty.IconPadding"))));
+            this.zastosuvaty.Name = "zastosuvaty";
+            this.zastosuvaty.UseVisualStyleBackColor = true;
+            // 
+            // tabControl2
+            // 
+            resources.ApplyResources(this.tabControl2, "tabControl2");
+            this.tabControl2.Controls.Add(this.tabPage4);
+            this.tabControl2.Controls.Add(this.tabPage6);
+            this.tabControl2.Controls.Add(this.tabPage7);
+            this.errorMain.SetError(this.tabControl2, resources.GetString("tabControl2.Error"));
+            this.errorMain.SetIconAlignment(this.tabControl2, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabControl2.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.tabControl2, ((int)(resources.GetObject("tabControl2.IconPadding"))));
+            this.tabControl2.Multiline = true;
+            this.tabControl2.Name = "tabControl2";
+            this.tabControl2.SelectedIndex = 0;
+            // 
+            // tabPage4
+            // 
+            resources.ApplyResources(this.tabPage4, "tabPage4");
+            this.tabPage4.Controls.Add(this.textAW0);
+            this.tabPage4.Controls.Add(this.textT0);
+            this.tabPage4.Controls.Add(this.textH0);
+            this.tabPage4.Controls.Add(this.textHmc);
+            this.tabPage4.Controls.Add(this.textMinutes);
+            this.tabPage4.Controls.Add(this.textHours);
+            this.tabPage4.Controls.Add(this.textDay);
+            this.tabPage4.Controls.Add(this.labelGradus);
+            this.tabPage4.Controls.Add(this.labelNaprSerVitru);
+            this.tabPage4.Controls.Add(this.label241);
+            this.tabPage4.Controls.Add(this.label242);
+            this.tabPage4.Controls.Add(this.label243);
+            this.tabPage4.Controls.Add(this.label244);
+            this.tabPage4.Controls.Add(this.label245);
+            this.tabPage4.Controls.Add(this.label246);
+            this.tabPage4.Controls.Add(this.label247);
+            this.tabPage4.Controls.Add(this.label248);
+            this.tabPage4.Controls.Add(this.label249);
+            this.tabPage4.Controls.Add(this.label250);
+            this.tabPage4.Controls.Add(this.textW0);
+            this.tabPage4.Controls.Add(this.buttonSkladBul);
+            this.tabPage4.Controls.Add(this.labelMSec);
+            this.tabPage4.Controls.Add(this.labelShvSerVitru);
+            this.tabPage4.Controls.Add(this.label251);
+            this.tabPage4.Controls.Add(this.label252);
+            this.tabPage4.Controls.Add(this.label253);
+            this.errorMain.SetError(this.tabPage4, resources.GetString("tabPage4.Error"));
+            this.errorMain.SetIconAlignment(this.tabPage4, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabPage4.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.tabPage4, ((int)(resources.GetObject("tabPage4.IconPadding"))));
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // textAW0
+            // 
+            resources.ApplyResources(this.textAW0, "textAW0");
+            this.errorMain.SetError(this.textAW0, resources.GetString("textAW0.Error"));
+            this.errorMain.SetIconAlignment(this.textAW0, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textAW0.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textAW0, ((int)(resources.GetObject("textAW0.IconPadding"))));
+            this.textAW0.Name = "textAW0";
+            this.textAW0.Validating += new System.ComponentModel.CancelEventHandler(this.textAW0_Validating);
+            // 
+            // textT0
+            // 
+            resources.ApplyResources(this.textT0, "textT0");
+            this.errorMain.SetError(this.textT0, resources.GetString("textT0.Error"));
+            this.errorMain.SetIconAlignment(this.textT0, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textT0.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textT0, ((int)(resources.GetObject("textT0.IconPadding"))));
+            this.textT0.Name = "textT0";
+            this.textT0.Validating += new System.ComponentModel.CancelEventHandler(this.textT0_Validating);
+            // 
+            // textH0
+            // 
+            resources.ApplyResources(this.textH0, "textH0");
+            this.errorMain.SetError(this.textH0, resources.GetString("textH0.Error"));
+            this.errorMain.SetIconAlignment(this.textH0, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textH0.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textH0, ((int)(resources.GetObject("textH0.IconPadding"))));
+            this.textH0.Name = "textH0";
+            this.textH0.Validating += new System.ComponentModel.CancelEventHandler(this.textH0_Validating);
+            // 
+            // textHmc
+            // 
+            resources.ApplyResources(this.textHmc, "textHmc");
+            this.errorMain.SetError(this.textHmc, resources.GetString("textHmc.Error"));
+            this.errorMain.SetIconAlignment(this.textHmc, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textHmc.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textHmc, ((int)(resources.GetObject("textHmc.IconPadding"))));
+            this.textHmc.Name = "textHmc";
+            this.textHmc.Validating += new System.ComponentModel.CancelEventHandler(this.textHmc_Validating_1);
+            // 
+            // textMinutes
+            // 
+            resources.ApplyResources(this.textMinutes, "textMinutes");
+            this.errorMain.SetError(this.textMinutes, resources.GetString("textMinutes.Error"));
+            this.errorMain.SetIconAlignment(this.textMinutes, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textMinutes.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textMinutes, ((int)(resources.GetObject("textMinutes.IconPadding"))));
+            this.textMinutes.Name = "textMinutes";
+            this.textMinutes.Validating += new System.ComponentModel.CancelEventHandler(this.textMinutes_Validating);
+            // 
+            // textHours
+            // 
+            resources.ApplyResources(this.textHours, "textHours");
+            this.errorMain.SetError(this.textHours, resources.GetString("textHours.Error"));
+            this.errorMain.SetIconAlignment(this.textHours, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textHours.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textHours, ((int)(resources.GetObject("textHours.IconPadding"))));
+            this.textHours.Name = "textHours";
+            this.textHours.Validating += new System.ComponentModel.CancelEventHandler(this.textHours_Validating);
+            // 
+            // textDay
+            // 
+            resources.ApplyResources(this.textDay, "textDay");
+            this.errorMain.SetError(this.textDay, resources.GetString("textDay.Error"));
+            this.errorMain.SetIconAlignment(this.textDay, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textDay.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textDay, ((int)(resources.GetObject("textDay.IconPadding"))));
+            this.textDay.Name = "textDay";
+            this.textDay.Validating += new System.ComponentModel.CancelEventHandler(this.textDay_Validating);
+            // 
+            // labelGradus
+            // 
+            resources.ApplyResources(this.labelGradus, "labelGradus");
+            this.errorMain.SetError(this.labelGradus, resources.GetString("labelGradus.Error"));
+            this.errorMain.SetIconAlignment(this.labelGradus, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelGradus.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelGradus, ((int)(resources.GetObject("labelGradus.IconPadding"))));
+            this.labelGradus.Name = "labelGradus";
+            // 
+            // labelNaprSerVitru
+            // 
+            resources.ApplyResources(this.labelNaprSerVitru, "labelNaprSerVitru");
+            this.errorMain.SetError(this.labelNaprSerVitru, resources.GetString("labelNaprSerVitru.Error"));
+            this.errorMain.SetIconAlignment(this.labelNaprSerVitru, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelNaprSerVitru.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelNaprSerVitru, ((int)(resources.GetObject("labelNaprSerVitru.IconPadding"))));
+            this.labelNaprSerVitru.Name = "labelNaprSerVitru";
+            // 
+            // label241
+            // 
+            resources.ApplyResources(this.label241, "label241");
+            this.errorMain.SetError(this.label241, resources.GetString("label241.Error"));
+            this.errorMain.SetIconAlignment(this.label241, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label241.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label241, ((int)(resources.GetObject("label241.IconPadding"))));
+            this.label241.Name = "label241";
+            // 
+            // label242
+            // 
+            resources.ApplyResources(this.label242, "label242");
+            this.errorMain.SetError(this.label242, resources.GetString("label242.Error"));
+            this.errorMain.SetIconAlignment(this.label242, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label242.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label242, ((int)(resources.GetObject("label242.IconPadding"))));
+            this.label242.Name = "label242";
+            // 
+            // label243
+            // 
+            resources.ApplyResources(this.label243, "label243");
+            this.errorMain.SetError(this.label243, resources.GetString("label243.Error"));
+            this.errorMain.SetIconAlignment(this.label243, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label243.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label243, ((int)(resources.GetObject("label243.IconPadding"))));
+            this.label243.Name = "label243";
+            // 
+            // label244
+            // 
+            resources.ApplyResources(this.label244, "label244");
+            this.errorMain.SetError(this.label244, resources.GetString("label244.Error"));
+            this.errorMain.SetIconAlignment(this.label244, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label244.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label244, ((int)(resources.GetObject("label244.IconPadding"))));
+            this.label244.Name = "label244";
+            // 
+            // label245
+            // 
+            resources.ApplyResources(this.label245, "label245");
+            this.errorMain.SetError(this.label245, resources.GetString("label245.Error"));
+            this.errorMain.SetIconAlignment(this.label245, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label245.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label245, ((int)(resources.GetObject("label245.IconPadding"))));
+            this.label245.Name = "label245";
+            // 
+            // label246
+            // 
+            resources.ApplyResources(this.label246, "label246");
+            this.errorMain.SetError(this.label246, resources.GetString("label246.Error"));
+            this.errorMain.SetIconAlignment(this.label246, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label246.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label246, ((int)(resources.GetObject("label246.IconPadding"))));
+            this.label246.Name = "label246";
+            // 
+            // label247
+            // 
+            resources.ApplyResources(this.label247, "label247");
+            this.errorMain.SetError(this.label247, resources.GetString("label247.Error"));
+            this.errorMain.SetIconAlignment(this.label247, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label247.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label247, ((int)(resources.GetObject("label247.IconPadding"))));
+            this.label247.Name = "label247";
+            // 
+            // label248
+            // 
+            resources.ApplyResources(this.label248, "label248");
+            this.errorMain.SetError(this.label248, resources.GetString("label248.Error"));
+            this.errorMain.SetIconAlignment(this.label248, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label248.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label248, ((int)(resources.GetObject("label248.IconPadding"))));
+            this.label248.Name = "label248";
+            // 
+            // label249
+            // 
+            resources.ApplyResources(this.label249, "label249");
+            this.errorMain.SetError(this.label249, resources.GetString("label249.Error"));
+            this.errorMain.SetIconAlignment(this.label249, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label249.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label249, ((int)(resources.GetObject("label249.IconPadding"))));
+            this.label249.Name = "label249";
+            // 
+            // label250
+            // 
+            resources.ApplyResources(this.label250, "label250");
+            this.errorMain.SetError(this.label250, resources.GetString("label250.Error"));
+            this.errorMain.SetIconAlignment(this.label250, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label250.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label250, ((int)(resources.GetObject("label250.IconPadding"))));
+            this.label250.Name = "label250";
+            // 
+            // textW0
+            // 
+            resources.ApplyResources(this.textW0, "textW0");
+            this.errorMain.SetError(this.textW0, resources.GetString("textW0.Error"));
+            this.errorMain.SetIconAlignment(this.textW0, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textW0.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textW0, ((int)(resources.GetObject("textW0.IconPadding"))));
+            this.textW0.Name = "textW0";
+            this.textW0.Validating += new System.ComponentModel.CancelEventHandler(this.textW0_Validating);
+            // 
+            // buttonSkladBul
+            // 
+            resources.ApplyResources(this.buttonSkladBul, "buttonSkladBul");
+            this.buttonSkladBul.AutoEllipsis = true;
+            this.errorMain.SetError(this.buttonSkladBul, resources.GetString("buttonSkladBul.Error"));
+            this.errorMain.SetIconAlignment(this.buttonSkladBul, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonSkladBul.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.buttonSkladBul, ((int)(resources.GetObject("buttonSkladBul.IconPadding"))));
+            this.buttonSkladBul.Name = "buttonSkladBul";
+            this.buttonSkladBul.UseVisualStyleBackColor = true;
+            this.buttonSkladBul.Click += new System.EventHandler(this.buttonSkladBul_Click);
+            // 
+            // labelMSec
+            // 
+            resources.ApplyResources(this.labelMSec, "labelMSec");
+            this.errorMain.SetError(this.labelMSec, resources.GetString("labelMSec.Error"));
+            this.errorMain.SetIconAlignment(this.labelMSec, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelMSec.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelMSec, ((int)(resources.GetObject("labelMSec.IconPadding"))));
+            this.labelMSec.Name = "labelMSec";
+            // 
+            // labelShvSerVitru
+            // 
+            resources.ApplyResources(this.labelShvSerVitru, "labelShvSerVitru");
+            this.errorMain.SetError(this.labelShvSerVitru, resources.GetString("labelShvSerVitru.Error"));
+            this.errorMain.SetIconAlignment(this.labelShvSerVitru, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelShvSerVitru.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelShvSerVitru, ((int)(resources.GetObject("labelShvSerVitru.IconPadding"))));
+            this.labelShvSerVitru.Name = "labelShvSerVitru";
+            // 
+            // label251
+            // 
+            resources.ApplyResources(this.label251, "label251");
+            this.errorMain.SetError(this.label251, resources.GetString("label251.Error"));
+            this.errorMain.SetIconAlignment(this.label251, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label251.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label251, ((int)(resources.GetObject("label251.IconPadding"))));
+            this.label251.Name = "label251";
+            // 
+            // label252
+            // 
+            resources.ApplyResources(this.label252, "label252");
+            this.errorMain.SetError(this.label252, resources.GetString("label252.Error"));
+            this.errorMain.SetIconAlignment(this.label252, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label252.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label252, ((int)(resources.GetObject("label252.IconPadding"))));
+            this.label252.Name = "label252";
+            // 
+            // label253
+            // 
+            resources.ApplyResources(this.label253, "label253");
+            this.errorMain.SetError(this.label253, resources.GetString("label253.Error"));
+            this.errorMain.SetIconAlignment(this.label253, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label253.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label253, ((int)(resources.GetObject("label253.IconPadding"))));
+            this.label253.Name = "label253";
+            // 
+            // tabPage6
+            // 
+            resources.ApplyResources(this.tabPage6, "tabPage6");
+            this.tabPage6.Controls.Add(this.textAW01);
+            this.tabPage6.Controls.Add(this.textT01);
+            this.tabPage6.Controls.Add(this.textH01);
+            this.tabPage6.Controls.Add(this.textDalnZnosuKul);
+            this.tabPage6.Controls.Add(this.textHmc1);
+            this.tabPage6.Controls.Add(this.textMinutes1);
+            this.tabPage6.Controls.Add(this.textHours1);
+            this.tabPage6.Controls.Add(this.textDay1);
+            this.tabPage6.Controls.Add(this.label254);
+            this.tabPage6.Controls.Add(this.label255);
+            this.tabPage6.Controls.Add(this.label256);
+            this.tabPage6.Controls.Add(this.label257);
+            this.tabPage6.Controls.Add(this.label258);
+            this.tabPage6.Controls.Add(this.label259);
+            this.tabPage6.Controls.Add(this.label260);
+            this.tabPage6.Controls.Add(this.label261);
+            this.tabPage6.Controls.Add(this.label262);
+            this.tabPage6.Controls.Add(this.label263);
+            this.tabPage6.Controls.Add(this.label264);
+            this.tabPage6.Controls.Add(this.label265);
+            this.tabPage6.Controls.Add(this.button33);
+            this.tabPage6.Controls.Add(this.labelM);
+            this.tabPage6.Controls.Add(this.labelDalnistZnosuKul);
+            this.tabPage6.Controls.Add(this.label266);
+            this.tabPage6.Controls.Add(this.label267);
+            this.tabPage6.Controls.Add(this.label268);
+            this.errorMain.SetError(this.tabPage6, resources.GetString("tabPage6.Error"));
+            this.errorMain.SetIconAlignment(this.tabPage6, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabPage6.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.tabPage6, ((int)(resources.GetObject("tabPage6.IconPadding"))));
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // textDalnZnosuKul
+            // 
+            resources.ApplyResources(this.textDalnZnosuKul, "textDalnZnosuKul");
+            this.errorMain.SetError(this.textDalnZnosuKul, resources.GetString("textDalnZnosuKul.Error"));
+            this.errorMain.SetIconAlignment(this.textDalnZnosuKul, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textDalnZnosuKul.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textDalnZnosuKul, ((int)(resources.GetObject("textDalnZnosuKul.IconPadding"))));
+            this.textDalnZnosuKul.Name = "textDalnZnosuKul";
+            // 
+            // textHmc1
+            // 
+            resources.ApplyResources(this.textHmc1, "textHmc1");
+            this.errorMain.SetError(this.textHmc1, resources.GetString("textHmc1.Error"));
+            this.errorMain.SetIconAlignment(this.textHmc1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textHmc1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textHmc1, ((int)(resources.GetObject("textHmc1.IconPadding"))));
+            this.textHmc1.Name = "textHmc1";
+            // 
+            // textMinutes1
+            // 
+            resources.ApplyResources(this.textMinutes1, "textMinutes1");
+            this.errorMain.SetError(this.textMinutes1, resources.GetString("textMinutes1.Error"));
+            this.errorMain.SetIconAlignment(this.textMinutes1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textMinutes1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textMinutes1, ((int)(resources.GetObject("textMinutes1.IconPadding"))));
+            this.textMinutes1.Name = "textMinutes1";
+            // 
+            // textHours1
+            // 
+            resources.ApplyResources(this.textHours1, "textHours1");
+            this.errorMain.SetError(this.textHours1, resources.GetString("textHours1.Error"));
+            this.errorMain.SetIconAlignment(this.textHours1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textHours1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textHours1, ((int)(resources.GetObject("textHours1.IconPadding"))));
+            this.textHours1.Name = "textHours1";
+            // 
+            // textDay1
+            // 
+            resources.ApplyResources(this.textDay1, "textDay1");
+            this.errorMain.SetError(this.textDay1, resources.GetString("textDay1.Error"));
+            this.errorMain.SetIconAlignment(this.textDay1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textDay1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textDay1, ((int)(resources.GetObject("textDay1.IconPadding"))));
+            this.textDay1.Name = "textDay1";
+            // 
+            // label254
+            // 
+            resources.ApplyResources(this.label254, "label254");
+            this.errorMain.SetError(this.label254, resources.GetString("label254.Error"));
+            this.errorMain.SetIconAlignment(this.label254, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label254.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label254, ((int)(resources.GetObject("label254.IconPadding"))));
+            this.label254.Name = "label254";
+            // 
+            // label255
+            // 
+            resources.ApplyResources(this.label255, "label255");
+            this.errorMain.SetError(this.label255, resources.GetString("label255.Error"));
+            this.errorMain.SetIconAlignment(this.label255, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label255.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label255, ((int)(resources.GetObject("label255.IconPadding"))));
+            this.label255.Name = "label255";
+            // 
+            // label256
+            // 
+            resources.ApplyResources(this.label256, "label256");
+            this.errorMain.SetError(this.label256, resources.GetString("label256.Error"));
+            this.errorMain.SetIconAlignment(this.label256, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label256.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label256, ((int)(resources.GetObject("label256.IconPadding"))));
+            this.label256.Name = "label256";
+            // 
+            // label257
+            // 
+            resources.ApplyResources(this.label257, "label257");
+            this.errorMain.SetError(this.label257, resources.GetString("label257.Error"));
+            this.errorMain.SetIconAlignment(this.label257, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label257.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label257, ((int)(resources.GetObject("label257.IconPadding"))));
+            this.label257.Name = "label257";
+            // 
+            // label258
+            // 
+            resources.ApplyResources(this.label258, "label258");
+            this.errorMain.SetError(this.label258, resources.GetString("label258.Error"));
+            this.errorMain.SetIconAlignment(this.label258, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label258.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label258, ((int)(resources.GetObject("label258.IconPadding"))));
+            this.label258.Name = "label258";
+            // 
+            // label259
+            // 
+            resources.ApplyResources(this.label259, "label259");
+            this.errorMain.SetError(this.label259, resources.GetString("label259.Error"));
+            this.errorMain.SetIconAlignment(this.label259, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label259.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label259, ((int)(resources.GetObject("label259.IconPadding"))));
+            this.label259.Name = "label259";
+            // 
+            // label260
+            // 
+            resources.ApplyResources(this.label260, "label260");
+            this.errorMain.SetError(this.label260, resources.GetString("label260.Error"));
+            this.errorMain.SetIconAlignment(this.label260, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label260.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label260, ((int)(resources.GetObject("label260.IconPadding"))));
+            this.label260.Name = "label260";
+            // 
+            // label261
+            // 
+            resources.ApplyResources(this.label261, "label261");
+            this.errorMain.SetError(this.label261, resources.GetString("label261.Error"));
+            this.errorMain.SetIconAlignment(this.label261, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label261.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label261, ((int)(resources.GetObject("label261.IconPadding"))));
+            this.label261.Name = "label261";
+            // 
+            // label262
+            // 
+            resources.ApplyResources(this.label262, "label262");
+            this.errorMain.SetError(this.label262, resources.GetString("label262.Error"));
+            this.errorMain.SetIconAlignment(this.label262, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label262.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label262, ((int)(resources.GetObject("label262.IconPadding"))));
+            this.label262.Name = "label262";
+            // 
+            // label263
+            // 
+            resources.ApplyResources(this.label263, "label263");
+            this.errorMain.SetError(this.label263, resources.GetString("label263.Error"));
+            this.errorMain.SetIconAlignment(this.label263, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label263.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label263, ((int)(resources.GetObject("label263.IconPadding"))));
+            this.label263.Name = "label263";
+            // 
+            // label264
+            // 
+            resources.ApplyResources(this.label264, "label264");
+            this.errorMain.SetError(this.label264, resources.GetString("label264.Error"));
+            this.errorMain.SetIconAlignment(this.label264, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label264.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label264, ((int)(resources.GetObject("label264.IconPadding"))));
+            this.label264.Name = "label264";
+            // 
+            // label265
+            // 
+            resources.ApplyResources(this.label265, "label265");
+            this.errorMain.SetError(this.label265, resources.GetString("label265.Error"));
+            this.errorMain.SetIconAlignment(this.label265, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label265.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label265, ((int)(resources.GetObject("label265.IconPadding"))));
+            this.label265.Name = "label265";
+            // 
+            // button33
+            // 
+            resources.ApplyResources(this.button33, "button33");
+            this.button33.AutoEllipsis = true;
+            this.errorMain.SetError(this.button33, resources.GetString("button33.Error"));
+            this.errorMain.SetIconAlignment(this.button33, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("button33.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.button33, ((int)(resources.GetObject("button33.IconPadding"))));
+            this.button33.Name = "button33";
+            this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
+            // 
+            // labelM
+            // 
+            resources.ApplyResources(this.labelM, "labelM");
+            this.errorMain.SetError(this.labelM, resources.GetString("labelM.Error"));
+            this.errorMain.SetIconAlignment(this.labelM, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelM.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelM, ((int)(resources.GetObject("labelM.IconPadding"))));
+            this.labelM.Name = "labelM";
+            // 
+            // labelDalnistZnosuKul
+            // 
+            resources.ApplyResources(this.labelDalnistZnosuKul, "labelDalnistZnosuKul");
+            this.errorMain.SetError(this.labelDalnistZnosuKul, resources.GetString("labelDalnistZnosuKul.Error"));
+            this.errorMain.SetIconAlignment(this.labelDalnistZnosuKul, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelDalnistZnosuKul.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelDalnistZnosuKul, ((int)(resources.GetObject("labelDalnistZnosuKul.IconPadding"))));
+            this.labelDalnistZnosuKul.Name = "labelDalnistZnosuKul";
+            // 
+            // label266
+            // 
+            resources.ApplyResources(this.label266, "label266");
+            this.errorMain.SetError(this.label266, resources.GetString("label266.Error"));
+            this.errorMain.SetIconAlignment(this.label266, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label266.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label266, ((int)(resources.GetObject("label266.IconPadding"))));
+            this.label266.Name = "label266";
+            // 
+            // label267
+            // 
+            resources.ApplyResources(this.label267, "label267");
+            this.errorMain.SetError(this.label267, resources.GetString("label267.Error"));
+            this.errorMain.SetIconAlignment(this.label267, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label267.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label267, ((int)(resources.GetObject("label267.IconPadding"))));
+            this.label267.Name = "label267";
+            // 
+            // label268
+            // 
+            resources.ApplyResources(this.label268, "label268");
+            this.errorMain.SetError(this.label268, resources.GetString("label268.Error"));
+            this.errorMain.SetIconAlignment(this.label268, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label268.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label268, ((int)(resources.GetObject("label268.IconPadding"))));
+            this.label268.Name = "label268";
+            // 
+            // tabPage7
+            // 
+            resources.ApplyResources(this.tabPage7, "tabPage7");
+            this.tabPage7.BackColor = System.Drawing.Color.LightGray;
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_11);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_10);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_9);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_8);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_7);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_6);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_5);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_4);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_3);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_2);
+            this.tabPage7.Controls.Add(this.value_t_dlW_Wy_1);
+            this.tabPage7.Controls.Add(this.text_delH_delt0);
+            this.tabPage7.Controls.Add(this.text_hmc);
+            this.tabPage7.Controls.Add(this.textDate);
+            this.tabPage7.Controls.Add(this.name_of_station);
+            this.tabPage7.Controls.Add(this.label269);
+            this.tabPage7.Controls.Add(this.label_60);
+            this.tabPage7.Controls.Add(this.label_50);
+            this.tabPage7.Controls.Add(this.buttonApply2);
+            this.tabPage7.Controls.Add(this.label_40);
+            this.tabPage7.Controls.Add(this.label_30);
+            this.tabPage7.Controls.Add(this.label_24);
+            this.tabPage7.Controls.Add(this.label_20);
+            this.tabPage7.Controls.Add(this.label_16);
+            this.tabPage7.Controls.Add(this.label_12);
+            this.tabPage7.Controls.Add(this.label_08);
+            this.tabPage7.Controls.Add(this.label_04);
+            this.tabPage7.Controls.Add(this.label_02);
+            this.tabPage7.Controls.Add(this.label_4);
+            this.tabPage7.Controls.Add(this.label_3);
+            this.tabPage7.Controls.Add(this.label_2);
+            this.tabPage7.Controls.Add(this.label_1);
+            this.tabPage7.Controls.Add(this.labelMeteoSer);
+            this.errorMain.SetError(this.tabPage7, resources.GetString("tabPage7.Error"));
+            this.errorMain.SetIconAlignment(this.tabPage7, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabPage7.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.tabPage7, ((int)(resources.GetObject("tabPage7.IconPadding"))));
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
+            // 
+            // value_t_dlW_Wy_11
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_11, "value_t_dlW_Wy_11");
+            this.errorMain.SetError(this.value_t_dlW_Wy_11, resources.GetString("value_t_dlW_Wy_11.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_11, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_11.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_11, ((int)(resources.GetObject("value_t_dlW_Wy_11.IconPadding"))));
+            this.value_t_dlW_Wy_11.Name = "value_t_dlW_Wy_11";
+            // 
+            // value_t_dlW_Wy_10
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_10, "value_t_dlW_Wy_10");
+            this.errorMain.SetError(this.value_t_dlW_Wy_10, resources.GetString("value_t_dlW_Wy_10.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_10, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_10.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_10, ((int)(resources.GetObject("value_t_dlW_Wy_10.IconPadding"))));
+            this.value_t_dlW_Wy_10.Name = "value_t_dlW_Wy_10";
+            // 
+            // value_t_dlW_Wy_9
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_9, "value_t_dlW_Wy_9");
+            this.errorMain.SetError(this.value_t_dlW_Wy_9, resources.GetString("value_t_dlW_Wy_9.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_9, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_9.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_9, ((int)(resources.GetObject("value_t_dlW_Wy_9.IconPadding"))));
+            this.value_t_dlW_Wy_9.Name = "value_t_dlW_Wy_9";
+            // 
+            // value_t_dlW_Wy_8
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_8, "value_t_dlW_Wy_8");
+            this.errorMain.SetError(this.value_t_dlW_Wy_8, resources.GetString("value_t_dlW_Wy_8.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_8, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_8.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_8, ((int)(resources.GetObject("value_t_dlW_Wy_8.IconPadding"))));
+            this.value_t_dlW_Wy_8.Name = "value_t_dlW_Wy_8";
+            // 
+            // value_t_dlW_Wy_7
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_7, "value_t_dlW_Wy_7");
+            this.errorMain.SetError(this.value_t_dlW_Wy_7, resources.GetString("value_t_dlW_Wy_7.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_7, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_7.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_7, ((int)(resources.GetObject("value_t_dlW_Wy_7.IconPadding"))));
+            this.value_t_dlW_Wy_7.Name = "value_t_dlW_Wy_7";
+            // 
+            // value_t_dlW_Wy_6
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_6, "value_t_dlW_Wy_6");
+            this.errorMain.SetError(this.value_t_dlW_Wy_6, resources.GetString("value_t_dlW_Wy_6.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_6, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_6.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_6, ((int)(resources.GetObject("value_t_dlW_Wy_6.IconPadding"))));
+            this.value_t_dlW_Wy_6.Name = "value_t_dlW_Wy_6";
+            // 
+            // value_t_dlW_Wy_5
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_5, "value_t_dlW_Wy_5");
+            this.errorMain.SetError(this.value_t_dlW_Wy_5, resources.GetString("value_t_dlW_Wy_5.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_5, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_5.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_5, ((int)(resources.GetObject("value_t_dlW_Wy_5.IconPadding"))));
+            this.value_t_dlW_Wy_5.Name = "value_t_dlW_Wy_5";
+            // 
+            // value_t_dlW_Wy_4
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_4, "value_t_dlW_Wy_4");
+            this.errorMain.SetError(this.value_t_dlW_Wy_4, resources.GetString("value_t_dlW_Wy_4.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_4, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_4.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_4, ((int)(resources.GetObject("value_t_dlW_Wy_4.IconPadding"))));
+            this.value_t_dlW_Wy_4.Name = "value_t_dlW_Wy_4";
+            // 
+            // value_t_dlW_Wy_3
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_3, "value_t_dlW_Wy_3");
+            this.errorMain.SetError(this.value_t_dlW_Wy_3, resources.GetString("value_t_dlW_Wy_3.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_3, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_3.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_3, ((int)(resources.GetObject("value_t_dlW_Wy_3.IconPadding"))));
+            this.value_t_dlW_Wy_3.Name = "value_t_dlW_Wy_3";
+            // 
+            // value_t_dlW_Wy_2
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_2, "value_t_dlW_Wy_2");
+            this.errorMain.SetError(this.value_t_dlW_Wy_2, resources.GetString("value_t_dlW_Wy_2.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_2, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_2.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_2, ((int)(resources.GetObject("value_t_dlW_Wy_2.IconPadding"))));
+            this.value_t_dlW_Wy_2.Name = "value_t_dlW_Wy_2";
+            // 
+            // value_t_dlW_Wy_1
+            // 
+            resources.ApplyResources(this.value_t_dlW_Wy_1, "value_t_dlW_Wy_1");
+            this.errorMain.SetError(this.value_t_dlW_Wy_1, resources.GetString("value_t_dlW_Wy_1.Error"));
+            this.errorMain.SetIconAlignment(this.value_t_dlW_Wy_1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("value_t_dlW_Wy_1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.value_t_dlW_Wy_1, ((int)(resources.GetObject("value_t_dlW_Wy_1.IconPadding"))));
+            this.value_t_dlW_Wy_1.Name = "value_t_dlW_Wy_1";
+            // 
+            // text_delH_delt0
+            // 
+            resources.ApplyResources(this.text_delH_delt0, "text_delH_delt0");
+            this.errorMain.SetError(this.text_delH_delt0, resources.GetString("text_delH_delt0.Error"));
+            this.errorMain.SetIconAlignment(this.text_delH_delt0, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("text_delH_delt0.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.text_delH_delt0, ((int)(resources.GetObject("text_delH_delt0.IconPadding"))));
+            this.text_delH_delt0.Name = "text_delH_delt0";
+            // 
+            // text_hmc
+            // 
+            resources.ApplyResources(this.text_hmc, "text_hmc");
+            this.errorMain.SetError(this.text_hmc, resources.GetString("text_hmc.Error"));
+            this.errorMain.SetIconAlignment(this.text_hmc, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("text_hmc.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.text_hmc, ((int)(resources.GetObject("text_hmc.IconPadding"))));
+            this.text_hmc.Name = "text_hmc";
+            // 
+            // textDate
+            // 
+            resources.ApplyResources(this.textDate, "textDate");
+            this.errorMain.SetError(this.textDate, resources.GetString("textDate.Error"));
+            this.errorMain.SetIconAlignment(this.textDate, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textDate.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textDate, ((int)(resources.GetObject("textDate.IconPadding"))));
+            this.textDate.Name = "textDate";
+            // 
+            // name_of_station
+            // 
+            resources.ApplyResources(this.name_of_station, "name_of_station");
+            this.errorMain.SetError(this.name_of_station, resources.GetString("name_of_station.Error"));
+            this.errorMain.SetIconAlignment(this.name_of_station, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("name_of_station.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.name_of_station, ((int)(resources.GetObject("name_of_station.IconPadding"))));
+            this.name_of_station.Name = "name_of_station";
+            // 
+            // label269
+            // 
+            resources.ApplyResources(this.label269, "label269");
+            this.errorMain.SetError(this.label269, resources.GetString("label269.Error"));
+            this.errorMain.SetIconAlignment(this.label269, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label269.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label269, ((int)(resources.GetObject("label269.IconPadding"))));
+            this.label269.Name = "label269";
+            // 
+            // label_60
+            // 
+            resources.ApplyResources(this.label_60, "label_60");
+            this.errorMain.SetError(this.label_60, resources.GetString("label_60.Error"));
+            this.errorMain.SetIconAlignment(this.label_60, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_60.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_60, ((int)(resources.GetObject("label_60.IconPadding"))));
+            this.label_60.Name = "label_60";
+            // 
+            // label_50
+            // 
+            resources.ApplyResources(this.label_50, "label_50");
+            this.errorMain.SetError(this.label_50, resources.GetString("label_50.Error"));
+            this.errorMain.SetIconAlignment(this.label_50, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_50.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_50, ((int)(resources.GetObject("label_50.IconPadding"))));
+            this.label_50.Name = "label_50";
+            // 
+            // buttonApply2
+            // 
+            resources.ApplyResources(this.buttonApply2, "buttonApply2");
+            this.errorMain.SetError(this.buttonApply2, resources.GetString("buttonApply2.Error"));
+            this.errorMain.SetIconAlignment(this.buttonApply2, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonApply2.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.buttonApply2, ((int)(resources.GetObject("buttonApply2.IconPadding"))));
+            this.buttonApply2.Name = "buttonApply2";
+            this.buttonApply2.UseVisualStyleBackColor = true;
+            this.buttonApply2.Click += new System.EventHandler(this.buttonApply2_Click);
+            // 
+            // label_40
+            // 
+            resources.ApplyResources(this.label_40, "label_40");
+            this.errorMain.SetError(this.label_40, resources.GetString("label_40.Error"));
+            this.errorMain.SetIconAlignment(this.label_40, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_40.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_40, ((int)(resources.GetObject("label_40.IconPadding"))));
+            this.label_40.Name = "label_40";
+            // 
+            // label_30
+            // 
+            resources.ApplyResources(this.label_30, "label_30");
+            this.errorMain.SetError(this.label_30, resources.GetString("label_30.Error"));
+            this.errorMain.SetIconAlignment(this.label_30, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_30.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_30, ((int)(resources.GetObject("label_30.IconPadding"))));
+            this.label_30.Name = "label_30";
+            // 
+            // label_24
+            // 
+            resources.ApplyResources(this.label_24, "label_24");
+            this.errorMain.SetError(this.label_24, resources.GetString("label_24.Error"));
+            this.errorMain.SetIconAlignment(this.label_24, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_24.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_24, ((int)(resources.GetObject("label_24.IconPadding"))));
+            this.label_24.Name = "label_24";
+            // 
+            // label_20
+            // 
+            resources.ApplyResources(this.label_20, "label_20");
+            this.errorMain.SetError(this.label_20, resources.GetString("label_20.Error"));
+            this.errorMain.SetIconAlignment(this.label_20, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_20.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_20, ((int)(resources.GetObject("label_20.IconPadding"))));
+            this.label_20.Name = "label_20";
+            // 
+            // label_16
+            // 
+            resources.ApplyResources(this.label_16, "label_16");
+            this.errorMain.SetError(this.label_16, resources.GetString("label_16.Error"));
+            this.errorMain.SetIconAlignment(this.label_16, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_16.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_16, ((int)(resources.GetObject("label_16.IconPadding"))));
+            this.label_16.Name = "label_16";
+            // 
+            // label_12
+            // 
+            resources.ApplyResources(this.label_12, "label_12");
+            this.errorMain.SetError(this.label_12, resources.GetString("label_12.Error"));
+            this.errorMain.SetIconAlignment(this.label_12, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_12.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_12, ((int)(resources.GetObject("label_12.IconPadding"))));
+            this.label_12.Name = "label_12";
+            // 
+            // label_08
+            // 
+            resources.ApplyResources(this.label_08, "label_08");
+            this.errorMain.SetError(this.label_08, resources.GetString("label_08.Error"));
+            this.errorMain.SetIconAlignment(this.label_08, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_08.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_08, ((int)(resources.GetObject("label_08.IconPadding"))));
+            this.label_08.Name = "label_08";
+            // 
+            // label_04
+            // 
+            resources.ApplyResources(this.label_04, "label_04");
+            this.errorMain.SetError(this.label_04, resources.GetString("label_04.Error"));
+            this.errorMain.SetIconAlignment(this.label_04, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_04.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_04, ((int)(resources.GetObject("label_04.IconPadding"))));
+            this.label_04.Name = "label_04";
+            // 
+            // label_02
+            // 
+            resources.ApplyResources(this.label_02, "label_02");
+            this.errorMain.SetError(this.label_02, resources.GetString("label_02.Error"));
+            this.errorMain.SetIconAlignment(this.label_02, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_02.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_02, ((int)(resources.GetObject("label_02.IconPadding"))));
+            this.label_02.Name = "label_02";
+            // 
+            // label_4
+            // 
+            resources.ApplyResources(this.label_4, "label_4");
+            this.errorMain.SetError(this.label_4, resources.GetString("label_4.Error"));
+            this.errorMain.SetIconAlignment(this.label_4, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_4.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_4, ((int)(resources.GetObject("label_4.IconPadding"))));
+            this.label_4.Name = "label_4";
+            // 
+            // label_3
+            // 
+            resources.ApplyResources(this.label_3, "label_3");
+            this.errorMain.SetError(this.label_3, resources.GetString("label_3.Error"));
+            this.errorMain.SetIconAlignment(this.label_3, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_3.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_3, ((int)(resources.GetObject("label_3.IconPadding"))));
+            this.label_3.Name = "label_3";
+            // 
+            // label_2
+            // 
+            resources.ApplyResources(this.label_2, "label_2");
+            this.errorMain.SetError(this.label_2, resources.GetString("label_2.Error"));
+            this.errorMain.SetIconAlignment(this.label_2, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_2.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_2, ((int)(resources.GetObject("label_2.IconPadding"))));
+            this.label_2.Name = "label_2";
+            // 
+            // label_1
+            // 
+            resources.ApplyResources(this.label_1, "label_1");
+            this.errorMain.SetError(this.label_1, resources.GetString("label_1.Error"));
+            this.errorMain.SetIconAlignment(this.label_1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label_1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label_1, ((int)(resources.GetObject("label_1.IconPadding"))));
+            this.label_1.Name = "label_1";
+            // 
+            // labelMeteoSer
+            // 
+            resources.ApplyResources(this.labelMeteoSer, "labelMeteoSer");
+            this.errorMain.SetError(this.labelMeteoSer, resources.GetString("labelMeteoSer.Error"));
+            this.errorMain.SetIconAlignment(this.labelMeteoSer, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelMeteoSer.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelMeteoSer, ((int)(resources.GetObject("labelMeteoSer.IconPadding"))));
+            this.labelMeteoSer.Name = "labelMeteoSer";
+            // 
+            // label270
+            // 
+            resources.ApplyResources(this.label270, "label270");
+            this.errorMain.SetError(this.label270, resources.GetString("label270.Error"));
+            this.errorMain.SetIconAlignment(this.label270, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label270.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label270, ((int)(resources.GetObject("label270.IconPadding"))));
+            this.label270.Name = "label270";
+            // 
+            // textBulletin
+            // 
+            resources.ApplyResources(this.textBulletin, "textBulletin");
+            this.errorMain.SetError(this.textBulletin, resources.GetString("textBulletin.Error"));
+            this.errorMain.SetIconAlignment(this.textBulletin, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textBulletin.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textBulletin, ((int)(resources.GetObject("textBulletin.IconPadding"))));
+            this.textBulletin.Name = "textBulletin";
             // 
             // buttonDMK
             // 
@@ -7573,6 +8498,54 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconPadding(this.tabControl1, ((int)(resources.GetObject("tabControl1.IconPadding"))));
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
+            // 
+            // numericTextBox113
+            // 
+            resources.ApplyResources(this.numericTextBox113, "numericTextBox113");
+            this.errorMain.SetError(this.numericTextBox113, resources.GetString("numericTextBox113.Error"));
+            this.errorMain.SetIconAlignment(this.numericTextBox113, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("numericTextBox113.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.numericTextBox113, ((int)(resources.GetObject("numericTextBox113.IconPadding"))));
+            this.numericTextBox113.Name = "numericTextBox113";
+            // 
+            // numericTextBox114
+            // 
+            resources.ApplyResources(this.numericTextBox114, "numericTextBox114");
+            this.errorMain.SetError(this.numericTextBox114, resources.GetString("numericTextBox114.Error"));
+            this.errorMain.SetIconAlignment(this.numericTextBox114, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("numericTextBox114.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.numericTextBox114, ((int)(resources.GetObject("numericTextBox114.IconPadding"))));
+            this.numericTextBox114.Name = "numericTextBox114";
+            // 
+            // numericTextBox112
+            // 
+            resources.ApplyResources(this.numericTextBox112, "numericTextBox112");
+            this.errorMain.SetError(this.numericTextBox112, resources.GetString("numericTextBox112.Error"));
+            this.errorMain.SetIconAlignment(this.numericTextBox112, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("numericTextBox112.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.numericTextBox112, ((int)(resources.GetObject("numericTextBox112.IconPadding"))));
+            this.numericTextBox112.Name = "numericTextBox112";
+            // 
+            // textH01
+            // 
+            resources.ApplyResources(this.textH01, "textH01");
+            this.errorMain.SetError(this.textH01, resources.GetString("textH01.Error"));
+            this.errorMain.SetIconAlignment(this.textH01, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textH01.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textH01, ((int)(resources.GetObject("textH01.IconPadding"))));
+            this.textH01.Name = "textH01";
+            // 
+            // textT01
+            // 
+            resources.ApplyResources(this.textT01, "textT01");
+            this.errorMain.SetError(this.textT01, resources.GetString("textT01.Error"));
+            this.errorMain.SetIconAlignment(this.textT01, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textT01.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textT01, ((int)(resources.GetObject("textT01.IconPadding"))));
+            this.textT01.Name = "textT01";
+            // 
+            // textAW01
+            // 
+            resources.ApplyResources(this.textAW01, "textAW01");
+            this.errorMain.SetError(this.textAW01, resources.GetString("textAW01.Error"));
+            this.errorMain.SetIconAlignment(this.textAW01, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textAW01.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textAW01, ((int)(resources.GetObject("textAW01.IconPadding"))));
+            this.textAW01.Name = "textAW01";
             // 
             // Meteonablyzheniy
             // 
@@ -7640,6 +8613,14 @@ namespace SkladannyaBuletnya
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabControl2.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -8302,6 +9283,101 @@ namespace SkladannyaBuletnya
         private Button buttonDTM75;
         private Button buttonRGM2;
         private Button buttonZastKomStarNach;
+        private Button zastosuvaty;
+        private TabControl tabControl2;
+        private TabPage tabPage4;
+        private numericTextBox.NumericTextBox textAW0;
+        private numericTextBox.NumericTextBox textT0;
+        private numericTextBox.NumericTextBox textH0;
+        private numericTextBox.NumericTextBox textHmc;
+        private numericTextBox.NumericTextBox textMinutes;
+        private numericTextBox.NumericTextBox textHours;
+        private numericTextBox.NumericTextBox textDay;
+        private Label labelGradus;
+        private Label labelNaprSerVitru;
+        private Label label241;
+        private Label label242;
+        private Label label243;
+        private Label label244;
+        private Label label245;
+        private Label label246;
+        private Label label247;
+        private Label label248;
+        private Label label249;
+        private Label label250;
+        private numericTextBox.NumericTextBox textW0;
+        private Button buttonSkladBul;
+        private Label labelMSec;
+        private Label labelShvSerVitru;
+        private Label label251;
+        private Label label252;
+        private Label label253;
+        private TabPage tabPage6;
+        private Button button33;
+        private Label labelM;
+        private Label labelDalnistZnosuKul;
+        private Label label266;
+        private Label label267;
+        private Label label268;
+        private TabPage tabPage7;
+        private TextBox value_t_dlW_Wy_11;
+        private TextBox value_t_dlW_Wy_10;
+        private TextBox value_t_dlW_Wy_9;
+        private TextBox value_t_dlW_Wy_8;
+        private TextBox value_t_dlW_Wy_7;
+        private TextBox value_t_dlW_Wy_6;
+        private TextBox value_t_dlW_Wy_5;
+        private TextBox value_t_dlW_Wy_4;
+        private TextBox value_t_dlW_Wy_3;
+        private TextBox value_t_dlW_Wy_2;
+        private TextBox value_t_dlW_Wy_1;
+        private TextBox text_delH_delt0;
+        private TextBox text_hmc;
+        private TextBox textDate;
+        private TextBox name_of_station;
+        private Label label269;
+        private Label label_60;
+        private Label label_50;
+        private Button buttonApply2;
+        private Label label_40;
+        private Label label_30;
+        private Label label_24;
+        private Label label_20;
+        private Label label_16;
+        private Label label_12;
+        private Label label_08;
+        private Label label_04;
+        private Label label_02;
+        private Label label_4;
+        private Label label_3;
+        private Label label_2;
+        private Label label_1;
+        private Label labelMeteoSer;
+        private Label label270;
+        private TextBox textBulletin;
+        private numericTextBox.NumericTextBox textDalnZnosuKul;
+        private numericTextBox.NumericTextBox textHmc1;
+        private numericTextBox.NumericTextBox textMinutes1;
+        private numericTextBox.NumericTextBox textHours1;
+        private numericTextBox.NumericTextBox textDay1;
+        private Label label254;
+        private Label label255;
+        private Label label256;
+        private Label label257;
+        private Label label258;
+        private Label label259;
+        private Label label260;
+        private Label label261;
+        private Label label262;
+        private Label label263;
+        private Label label264;
+        private Label label265;
+        private numericTextBox.NumericTextBox numericTextBox113;
+        private numericTextBox.NumericTextBox numericTextBox114;
+        private numericTextBox.NumericTextBox numericTextBox112;
+        private numericTextBox.NumericTextBox textT01;
+        private numericTextBox.NumericTextBox textH01;
+        private numericTextBox.NumericTextBox textAW01;
     }
 }
 

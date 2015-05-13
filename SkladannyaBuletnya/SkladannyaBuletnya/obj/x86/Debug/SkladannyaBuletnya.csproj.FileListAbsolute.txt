@@ -43,3 +43,6 @@ D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaB
 D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteonablyzheniy.tr.resources
 D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.csproj.GenerateResource.Cache
 D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\tr\SkladannyaBuletnya.resources.dll
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\SkladannyaBuletnya.Meteonablyzheniy.uk-UA.resources
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\bin\x86\Debug\uk-UA\SkladannyaBuletnya.resources.dll
+D:\Study\Воєнна кафедра\git\Bulletin\SkladannyaBuletnya\SkladannyaBuletnya\obj\x86\Debug\uk-UA\SkladannyaBuletnya.resources.dll

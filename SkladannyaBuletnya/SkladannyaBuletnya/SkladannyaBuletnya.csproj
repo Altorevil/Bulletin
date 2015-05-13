@@ -113,6 +113,7 @@
       <DependentUpon>HarakterCili.cs</DependentUpon>
     </Compile>
     <Compile Include="lib\Dashboard.cs" />
+    <Compile Include="lib\Meteoseredniy_iterpol.cs" />
     <Compile Include="lib\Table5.cs" />
     <Compile Include="lib\TableUtils.cs" />
     <Compile Include="lib\TableVR2.cs" />
@@ -163,6 +164,9 @@
     <EmbeddedResource Include="Meteonablyzheniy.tr.resx">
       <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Meteonablyzheniy.uk-UA.resx">
+      <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Meteoseredniy.resx">
       <DependentUpon>Meteoseredniy.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +186,15 @@
     <EmbeddedResource Include="VytrataNaGarmatu.resx">
       <DependentUpon>VytrataNaGarmatu.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="lib\tabl_2.4.xls" />
+    <None Include="lib\tabl_2.6.xls" />
+    <None Include="lib\tabl_2.8_Go.xls" />
+    <None Include="lib\tabl_2.9_G.xls" />
+    <None Include="lib\tabl_2.9_GM.xls" />
+    <None Include="lib\tabl_2.9_СG.xls" />
+    <None Include="lib\tabl_22.xls" />
+    <None Include="lib\tabl_bh.xls" />
+    <None Include="lib\tabl_Vo_TZ.xls" />
     <None Include="lib\TC 2C3_Pmin.xlsx" />
     <None Include="lib\ТС 2С3-Т-90.xlsx" />
     <None Include="Properties\Settings.settings">
@@ -196,9 +209,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -221,6 +231,8 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\my_2.txt" />
+    <Content Include="Resources\my_3.txt" />
     <Content Include="xml\DanieCeli.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
