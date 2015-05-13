@@ -164,9 +164,6 @@
     <EmbeddedResource Include="Meteonablyzheniy.tr.resx">
       <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Meteonablyzheniy.uk-UA.resx">
-      <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Meteoseredniy.resx">
       <DependentUpon>Meteoseredniy.cs</DependentUpon>
     </EmbeddedResource>
@@ -235,6 +232,7 @@
     <Content Include="Resources\my_3.txt" />
     <Content Include="xml\DanieCeli.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

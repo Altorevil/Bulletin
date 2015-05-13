@@ -1,7 +1,0 @@
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\bin\Debug\NumericTextBox.dll.config
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\bin\Debug\NumericTextBox.dll
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\bin\Debug\NumericTextBox.pdb
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\obj\Debug\NumericTextBox.Properties.Resources.resources
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\obj\Debug\NumericTextBox.csproj.GenerateResource.Cache
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\obj\Debug\NumericTextBox.dll
-D:\Study\Воєнна кафедра\NumericTextBox\NumericTextBox\obj\Debug\NumericTextBox.pdb
