@@ -131,6 +131,9 @@
   <data name="textPozyvniyBat.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="label_24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="textNA.Error" xml:space="preserve">
     <value />
   </data>
@@ -142,6 +145,9 @@
   </data>
   <data name="label148.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="label253.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="panel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
@@ -208,7 +214,7 @@
     <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;textAW01.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;numericTextBox55.Parent" xml:space="preserve">
     <value>panel2</value>
@@ -507,9 +513,6 @@
   <data name="buttonKC11.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="buttonVV11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="&gt;&gt;label91.Name" xml:space="preserve">
     <value>label91</value>
   </data>
@@ -654,8 +657,8 @@
   <data name="textHours.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="numericTextBox34.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="numericTextBox113.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="numericTextBox33.Location" type="System.Drawing.Point, System.Drawing">
     <value>301, 12</value>
@@ -699,6 +702,9 @@
   <data name="label251.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
+  <data name="numericTextBox112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="&gt;&gt;numericTextBox102.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
@@ -739,7 +745,7 @@
     <value>23, 15</value>
   </data>
   <data name="&gt;&gt;textBulletin.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="button30.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 23</value>
@@ -918,8 +924,8 @@
   <data name="&gt;&gt;labelMSec.Name" xml:space="preserve">
     <value>labelMSec</value>
   </data>
-  <data name="label73.Text" xml:space="preserve">
-    <value>h=</value>
+  <data name="buttonOC3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
   </data>
   <data name="label225.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -1098,6 +1104,9 @@
   <data name="label176.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;textY5.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
   <data name="label24.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -1142,6 +1151,9 @@
   </data>
   <data name="buttonSkladBul.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
+  </data>
+  <data name="buttonVS13.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
   <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 13</value>
@@ -1247,6 +1259,9 @@
   </data>
   <data name="label42.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="buttonXC1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 119</value>
   </data>
   <data name="&gt;&gt;textY4.Name" xml:space="preserve">
     <value>textY4</value>
@@ -1375,7 +1390,7 @@
     <value>335, 29</value>
   </data>
   <data name="&gt;&gt;textHours1.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonTV4.Text" xml:space="preserve">
     <value>Вогневе спостереження</value>
@@ -1472,6 +1487,9 @@
   </data>
   <data name="numericTextBox18.Location" type="System.Drawing.Point, System.Drawing">
     <value>97, 89</value>
+  </data>
+  <data name="label_16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label190.Location" type="System.Drawing.Point, System.Drawing">
     <value>192, 15</value>
@@ -1689,9 +1707,6 @@
   <data name="&gt;&gt;buttonKC8.Name" xml:space="preserve">
     <value>buttonKC8</value>
   </data>
-  <data name="&gt;&gt;label52.ZOrder" xml:space="preserve">
-    <value>74</value>
-  </data>
   <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9.75pt</value>
   </data>
@@ -1770,9 +1785,6 @@
   <data name="numericTextBox98.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
   </data>
-  <data name="label106.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
   <data name="label179.TabIndex" type="System.Int32, mscorlib">
     <value>68</value>
   </data>
@@ -1814,6 +1826,9 @@
   </data>
   <data name="textPozivnyi7.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;button20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textNoCili.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -1909,7 +1924,7 @@
     <value>buttonZa3</value>
   </data>
   <data name="&gt;&gt;textDay1.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
     <value>21, 15</value>
@@ -1920,8 +1935,8 @@
   <data name="label101.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 13</value>
   </data>
-  <data name="value_t_dlW_Wy_9.TabIndex" type="System.Int32, mscorlib">
-    <value>201</value>
+  <data name="numericTextBox103.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
   </data>
   <data name="label38.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -1947,8 +1962,8 @@
   <data name="label188.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label212.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 431</value>
+  <data name="&gt;&gt;button23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;numericTextBox80.Parent" xml:space="preserve">
     <value>panel13</value>
@@ -2025,6 +2040,9 @@
   <data name="buttonTV2.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 23</value>
   </data>
+  <data name="numericKC6hc.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
   <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -2076,6 +2094,9 @@
   <data name="buttonTV12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
+  <data name="label174.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
   <data name="label33.Error" xml:space="preserve">
     <value />
   </data>
@@ -2106,8 +2127,8 @@
   <data name="&gt;&gt;label142.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="label120.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 13</value>
+  <data name="label252.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="numericTextBox94.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2120,9 +2141,6 @@
   </data>
   <data name="&gt;&gt;labelDalnistZnosuKul.Parent" xml:space="preserve">
     <value>tabPage6</value>
-  </data>
-  <data name="&gt;&gt;textHours1.Name" xml:space="preserve">
-    <value>textHours1</value>
   </data>
   <data name="&gt;&gt;label60.Name" xml:space="preserve">
     <value>label60</value>
@@ -2162,6 +2180,9 @@
   </data>
   <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
     <value>tabControl1</value>
+  </data>
+  <data name="button12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;label61.Name" xml:space="preserve">
     <value>label61</value>
@@ -2241,6 +2262,9 @@
   <data name="&gt;&gt;buttonVV14.Parent" xml:space="preserve">
     <value>tabPage5</value>
   </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>96</value>
+  </data>
   <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
@@ -2295,8 +2319,8 @@
   <data name="buttonSO1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="numericTextBox103.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
+  <data name="&gt;&gt;label185.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="numericTextBox13.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 8</value>
@@ -2391,6 +2415,9 @@
   <data name="label209.Location" type="System.Drawing.Point, System.Drawing">
     <value>538, 18</value>
   </data>
+  <data name="label209.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="buttonKC4.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
   </data>
@@ -2453,6 +2480,9 @@
   </data>
   <data name="textY7.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
+  </data>
+  <data name="&gt;&gt;buttonSO12.Name" xml:space="preserve">
+    <value>buttonSO12</value>
   </data>
   <data name="label79.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2673,6 +2703,9 @@
   <data name="buttonKC11.Text" xml:space="preserve">
     <value>Прямокутні</value>
   </data>
+  <data name="&gt;&gt;button20.Name" xml:space="preserve">
+    <value>button20</value>
+  </data>
   <data name="textNazvaPunktu.Error" xml:space="preserve">
     <value />
   </data>
@@ -2808,6 +2841,9 @@
   <data name="buttonVS1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="button33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
   <data name="buttonOF250G.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -2828,6 +2864,9 @@
   </data>
   <data name="numericTextBox10.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
+  </data>
+  <data name="textAW0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="textPozivnyi8.Error" xml:space="preserve">
     <value />
@@ -2976,9 +3015,6 @@
   <data name="label119.Text" xml:space="preserve">
     <value>тис.</value>
   </data>
-  <data name="numeric5KCMk.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="numericTextBox44.Location" type="System.Drawing.Point, System.Drawing">
     <value>335, 30</value>
   </data>
@@ -3068,6 +3104,9 @@
   </data>
   <data name="&gt;&gt;textNo.Name" xml:space="preserve">
     <value>textNo</value>
+  </data>
+  <data name="label269.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;label75.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -3162,8 +3201,8 @@
   <data name="&gt;&gt;numericTextBox98.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;label57.Parent" xml:space="preserve">
-    <value>tabBP</value>
+  <data name="numericTextBox107.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
   </data>
   <data name="&gt;&gt;button28.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3176,6 +3215,9 @@
   </data>
   <data name="label23.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
+  </data>
+  <data name="text_delH_delt0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="numericTextBox24.Text" xml:space="preserve">
     <value>0</value>
@@ -3278,6 +3320,9 @@
   </data>
   <data name="buttonVS11.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
+  </data>
+  <data name="textHours1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="panel.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3396,9 +3441,6 @@
   <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="label188.Error" xml:space="preserve">
     <value />
   </data>
@@ -3497,6 +3539,9 @@
   </data>
   <data name="panel2.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonOF22.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3654,6 +3699,9 @@
   <data name="label268.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;textY6.Name" xml:space="preserve">
+    <value>textY6</value>
+  </data>
   <data name="numericSnaryadiv.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -3738,6 +3786,9 @@
   <data name="button10.TabIndex" type="System.Int32, mscorlib">
     <value>69</value>
   </data>
+  <data name="label218.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
   <data name="buttonVV12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -3768,9 +3819,6 @@
   <data name="&gt;&gt;label43.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label162.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Meteonablyzheniy</value>
   </data>
@@ -3794,6 +3842,9 @@
   </data>
   <data name="comboZar1.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 21</value>
+  </data>
+  <data name="numericTextBox56.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="label223.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 20</value>
@@ -3829,7 +3880,7 @@
     <value>Top</value>
   </data>
   <data name="&gt;&gt;textDalnZnosuKul.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textNo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -3853,7 +3904,7 @@
     <value />
   </data>
   <data name="&gt;&gt;label262.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>19</value>
   </data>
   <data name="label42.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9.75pt</value>
@@ -3939,6 +3990,9 @@
   <data name="buttonVV13.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
+  <data name="label250.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="&gt;&gt;panel9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3956,6 +4010,9 @@
   </data>
   <data name="&gt;&gt;label30.Parent" xml:space="preserve">
     <value>tabBP</value>
+  </data>
+  <data name="buttonSkladBul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="buttonKC12.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -3977,9 +4034,6 @@
   </data>
   <data name="label246.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 122</value>
-  </data>
-  <data name="&gt;&gt;textX2.Name" xml:space="preserve">
-    <value>textX2</value>
   </data>
   <data name="&gt;&gt;button19.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4014,8 +4068,8 @@
   <data name="&gt;&gt;buttonXC2.Name" xml:space="preserve">
     <value>buttonXC2</value>
   </data>
-  <data name="buttonMeteoSer.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;label193.ZOrder" xml:space="preserve">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;numericTextBox47.ZOrder" xml:space="preserve">
     <value>13</value>
@@ -4031,6 +4085,9 @@
   </data>
   <data name="comboBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
+  </data>
+  <data name="buttonMeteoSer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="numericTextBox113.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -4314,6 +4371,9 @@
   <data name="numericTextBox91.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
   </data>
+  <data name="&gt;&gt;label162.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
   <data name="&gt;&gt;tabControl2.Parent" xml:space="preserve">
     <value>tabPage1</value>
   </data>
@@ -4327,7 +4387,7 @@
     <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;label259.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="button28.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4494,6 +4554,9 @@
   <data name="label72.Error" xml:space="preserve">
     <value />
   </data>
+  <data name="textDay1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="&gt;&gt;button22.Name" xml:space="preserve">
     <value>button22</value>
   </data>
@@ -4527,8 +4590,8 @@
   <data name="label33.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9.75pt</value>
   </data>
-  <data name="label244.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="numericTextBox83.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
   </data>
   <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 13</value>
@@ -4580,6 +4643,9 @@
   </data>
   <data name="buttonOF22.Text" xml:space="preserve">
     <value>ОФ-22</value>
+  </data>
+  <data name="&gt;&gt;buttonSO13.Parent" xml:space="preserve">
+    <value>tabPage5</value>
   </data>
   <data name="numericKC8Fc.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 47</value>
@@ -4746,6 +4812,9 @@
   <data name="&gt;&gt;label78.Name" xml:space="preserve">
     <value>label78</value>
   </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="tabPage5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -4815,11 +4884,11 @@
   <data name="buttonVS2.Text" xml:space="preserve">
     <value>На батарею</value>
   </data>
+  <data name="label249.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="label236.Text" xml:space="preserve">
     <value>Ознака спостереження цілі:</value>
-  </data>
-  <data name="label228.Text" xml:space="preserve">
-    <value>Xл=</value>
   </data>
   <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4835,9 +4904,6 @@
   </data>
   <data name="textPozivnyi2.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 20</value>
-  </data>
-  <data name="numericTextBox113.Location" type="System.Drawing.Point, System.Drawing">
-    <value>362, 98</value>
   </data>
   <data name="label235.Location" type="System.Drawing.Point, System.Drawing">
     <value>134, 234</value>
@@ -4965,9 +5031,6 @@
   <data name="&gt;&gt;label203.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;numericTextBox96.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
   <data name="&gt;&gt;value_t_dlW_Wy_6.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
@@ -5015,9 +5078,6 @@
   </data>
   <data name="&gt;&gt;buttonSO13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label142.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 13</value>
   </data>
   <data name="textPozivnyi7.Location" type="System.Drawing.Point, System.Drawing">
     <value>984, 88</value>
@@ -5118,6 +5178,9 @@
   <data name="&gt;&gt;label241.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="label_20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="label107.TabIndex" type="System.Int32, mscorlib">
     <value>78</value>
   </data>
@@ -5172,8 +5235,8 @@
   <data name="label174.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="buttonPK1.Error" xml:space="preserve">
-    <value />
+  <data name="label106.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;buttonSkladBulVR.Parent" xml:space="preserve">
     <value>tabPage6</value>
@@ -5282,6 +5345,9 @@
   </data>
   <data name="&gt;&gt;textH7.Parent" xml:space="preserve">
     <value>tabBP</value>
+  </data>
+  <data name="numericTextBox4.Text" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="dataGridView2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -5445,6 +5511,9 @@
   <data name="&gt;&gt;numericTextBox57.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="textT0_1.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
   <data name="label134.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -5453,6 +5522,9 @@
   </data>
   <data name="label197.Location" type="System.Drawing.Point, System.Drawing">
     <value>255, 22</value>
+  </data>
+  <data name="&gt;&gt;buttonVS4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="numericKCYc.Error" xml:space="preserve">
     <value />
@@ -5709,9 +5781,6 @@
   <data name="numericTextBox30.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 101</value>
   </data>
-  <data name="textH6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>882, 162</value>
-  </data>
   <data name="numericTextBox91.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -5893,7 +5962,7 @@
     <value />
   </data>
   <data name="&gt;&gt;label264.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>21</value>
   </data>
   <data name="comboZar5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -5925,8 +5994,8 @@
   <data name="&gt;&gt;textH2.ZOrder" xml:space="preserve">
     <value>43</value>
   </data>
-  <data name="button22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 16</value>
+  <data name="label132.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="button10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -6009,6 +6078,9 @@
   <data name="numericTextBox52.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 47</value>
   </data>
+  <data name="label_3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="textBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -6035,9 +6107,6 @@
   </data>
   <data name="buttonV429.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="tabControl1.Error" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;buttonSB2.Parent" xml:space="preserve">
     <value>tabPage6</value>
@@ -6267,9 +6336,6 @@
   <data name="&gt;&gt;label65.Parent" xml:space="preserve">
     <value>panel7</value>
   </data>
-  <data name="numericTextBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
-  </data>
   <data name="numericTextBox101.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -6386,6 +6452,9 @@
   </data>
   <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
     <value>413, 21</value>
+  </data>
+  <data name="label257.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
     <value>Пристріляти</value>
@@ -6555,9 +6624,6 @@
   <data name="panel16.Size" type="System.Drawing.Size, System.Drawing">
     <value>753, 54</value>
   </data>
-  <data name="numericTextBox105.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 17</value>
-  </data>
   <data name="numericTextBox33.Error" xml:space="preserve">
     <value />
   </data>
@@ -6570,8 +6636,8 @@
   <data name="&gt;&gt;button21.Parent" xml:space="preserve">
     <value>panel13</value>
   </data>
-  <data name="&gt;&gt;label258.Parent" xml:space="preserve">
-    <value>tabPage6</value>
+  <data name="label94.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
   </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>
@@ -6834,11 +6900,11 @@
   <data name="&gt;&gt;numericKC6X1.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="label72.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
+  <data name="name_of_station.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;label68.Parent" xml:space="preserve">
-    <value>panel7</value>
+  <data name="label115.TabIndex" type="System.Int32, mscorlib">
+    <value>86</value>
   </data>
   <data name="buttonOF540V.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6885,9 +6951,6 @@
   <data name="buttonYk11.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 454</value>
   </data>
-  <data name="buttonKC7Divisiyniy.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
   <data name="label146.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -6915,11 +6978,17 @@
   <data name="&gt;&gt;button8.Name" xml:space="preserve">
     <value>button8</value>
   </data>
+  <data name="label126.Error" xml:space="preserve">
+    <value />
+  </data>
   <data name="label56.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
   <data name="numericTextBox28.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="label_50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;textBox7.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -6938,6 +7007,9 @@
   </data>
   <data name="label220.Text" xml:space="preserve">
     <value>Фронт=</value>
+  </data>
+  <data name="numericKCXc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="label128.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -6990,6 +7062,9 @@
   <data name="comboInd5.Items1" xml:space="preserve">
     <value>ОФ-540</value>
   </data>
+  <data name="label264.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="&gt;&gt;label30.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -7000,7 +7075,7 @@
     <value>Top</value>
   </data>
   <data name="&gt;&gt;label258.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="numericKC8hc.Error" xml:space="preserve">
     <value />
@@ -7080,9 +7155,6 @@
   <data name="buttonYk11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;label114.Parent" xml:space="preserve">
-    <value>tabPage3</value>
-  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>447, 31</value>
   </data>
@@ -7143,8 +7215,8 @@
   <data name="textBox15.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;labelMeteoSer.Parent" xml:space="preserve">
-    <value>tabPage7</value>
+  <data name="numericTextBox64.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;textW0.Name" xml:space="preserve">
     <value>textW0</value>
@@ -7322,6 +7394,9 @@
   </data>
   <data name="&gt;&gt;label97.Name" xml:space="preserve">
     <value>label97</value>
+  </data>
+  <data name="name_of_station.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;numeric5KCAk.Name" xml:space="preserve">
     <value>numeric5KCAk</value>
@@ -7575,6 +7650,9 @@
   <data name="buttonZSH2.Error" xml:space="preserve">
     <value />
   </data>
+  <data name="label65.Text" xml:space="preserve">
+    <value> αп=</value>
+  </data>
   <data name="&gt;&gt;label178.Name" xml:space="preserve">
     <value>label178</value>
   </data>
@@ -7638,14 +7716,14 @@
   <data name="label210.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;textKA.Type" xml:space="preserve">
+    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;value_t_dlW_Wy_7.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="&gt;&gt;comboPidr3.Parent" xml:space="preserve">
     <value>tabBP</value>
-  </data>
-  <data name="comboInd2.Error" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;label_1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -7709,6 +7787,9 @@
   </data>
   <data name="&gt;&gt;numericTextBox71.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="label245.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;label96.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -7971,8 +8052,8 @@
   <data name="buttonVR2.Size" type="System.Drawing.Size, System.Drawing">
     <value>279, 80</value>
   </data>
-  <data name="&gt;&gt;button20.Name" xml:space="preserve">
-    <value>button20</value>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 15</value>
   </data>
   <data name="&gt;&gt;label139.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -8185,7 +8266,7 @@
     <value>button26</value>
   </data>
   <data name="&gt;&gt;textMinutes1.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="numericTextBox49.Location" type="System.Drawing.Point, System.Drawing">
     <value>328, 18</value>
@@ -8196,11 +8277,11 @@
   <data name="&gt;&gt;label198.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label24.Name" xml:space="preserve">
-    <value>label24</value>
+  <data name="label263.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;label255.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="label241.TabIndex" type="System.Int32, mscorlib">
     <value>125</value>
@@ -8322,8 +8403,8 @@
   <data name="numericTextBox108.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;numericTextBox93.Parent" xml:space="preserve">
-    <value>panel15</value>
+  <data name="numericTextBox105.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 17</value>
   </data>
   <data name="&gt;&gt;numericTextBox114.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -8339,6 +8420,9 @@
   </data>
   <data name="label204.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
+  </data>
+  <data name="label256.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;numericTextBox27.Name" xml:space="preserve">
     <value>numericTextBox27</value>
@@ -8387,6 +8471,9 @@
   </data>
   <data name="buttonOC13.Error" xml:space="preserve">
     <value />
+  </data>
+  <data name="label_60.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;buttonYk1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -8484,6 +8571,9 @@
   <data name="numericTextBox107.Error" xml:space="preserve">
     <value />
   </data>
+  <data name="textHmc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>tabBP</value>
   </data>
@@ -8532,8 +8622,8 @@
   <data name="buttonOC2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="comboInd2.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="buttonKC6.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 16</value>
@@ -8586,6 +8676,9 @@
   <data name="label40.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
   <data name="textPozivnyi7.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
@@ -8631,8 +8724,8 @@
   <data name="panelPryamCil.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="buttonVV14.Text" xml:space="preserve">
-    <value>Готовність</value>
+  <data name="numericTextBox100.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="numericKC8Kr.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
@@ -8642,6 +8735,9 @@
   </data>
   <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
     <value>305, 33</value>
+  </data>
+  <data name="text_hmc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="numericKCYc.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
@@ -8742,8 +8838,8 @@
   <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
     <value>20, 13</value>
   </data>
-  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 15</value>
+  <data name="panelVydSnaryadu.TabIndex" type="System.Int32, mscorlib">
+    <value>107</value>
   </data>
   <data name="&gt;&gt;textY4.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -8784,8 +8880,8 @@
   <data name="button33.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="label129.Error" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;label84.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="label3.Error" xml:space="preserve">
     <value />
@@ -8814,9 +8910,6 @@
   <data name="numericTextBox110.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="panelVydSnaryadu.TabIndex" type="System.Int32, mscorlib">
-    <value>107</value>
-  </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>618, 162</value>
   </data>
@@ -8839,7 +8932,7 @@
     <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;label270.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="label111.Location" type="System.Drawing.Point, System.Drawing">
     <value>55, 513</value>
@@ -8906,9 +8999,6 @@
   </data>
   <data name="label170.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
-  </data>
-  <data name="label153.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 10</value>
@@ -9108,6 +9198,9 @@
   <data name="buttonVV12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="&gt;&gt;label86.Name" xml:space="preserve">
+    <value>label86</value>
+  </data>
   <data name="textHmc1.Error" xml:space="preserve">
     <value />
   </data>
@@ -9294,8 +9387,8 @@
   <data name="label154.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label172.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="label10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="numericTextBox36.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
@@ -9793,7 +9886,7 @@
     <value>tabPage5</value>
   </data>
   <data name="&gt;&gt;labelDalnistZnosuKul.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>10</value>
   </data>
   <data name="label24.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -9860,9 +9953,6 @@
   </data>
   <data name="numericTextBox39.Error" xml:space="preserve">
     <value />
-  </data>
-  <data name="numericTextBox49.Text" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="label211.Text" xml:space="preserve">
     <value>метрів</value>
@@ -9956,9 +10046,6 @@
   </data>
   <data name="&gt;&gt;label141.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button28.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;label41.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -10068,6 +10155,9 @@
   <data name="label110.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;buttonVS12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="numericKC8Ir.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
   </data>
@@ -10131,8 +10221,8 @@
   <data name="&gt;&gt;textT0.Parent" xml:space="preserve">
     <value>tabPage4</value>
   </data>
-  <data name="textX4.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="label23.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;numericKC7Al.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -10158,7 +10248,7 @@
   <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
     <value>1166, 724</value>
   </data>
-  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+  <data name="textY4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
   <data name="textPozivnyi6.TabIndex" type="System.Int32, mscorlib">
@@ -10404,6 +10494,9 @@
   <data name="buttonYk12.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 23</value>
   </data>
+  <data name="label212.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 431</value>
+  </data>
   <data name="label212.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -10464,9 +10557,6 @@
   <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
     <value>textBox5</value>
   </data>
-  <data name="label36.Error" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;label87.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -10501,7 +10591,7 @@
     <value>71, 20</value>
   </data>
   <data name="&gt;&gt;buttonDMK.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;label131.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -10551,8 +10641,8 @@
   <data name="&gt;&gt;numericTextBox8.Parent" xml:space="preserve">
     <value>tabPage3</value>
   </data>
-  <data name="&gt;&gt;labelDalnistZnosuKul.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonZa3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="buttonVV13.Text" xml:space="preserve">
     <value>Навести</value>
@@ -10661,6 +10751,9 @@
   </data>
   <data name="buttonVS13.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="buttonVV14.Text" xml:space="preserve">
+    <value>Готовність</value>
   </data>
   <data name="buttonPK2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -10776,8 +10869,8 @@
   <data name="textPozivnyi8.TabIndex" type="System.Int32, mscorlib">
     <value>29</value>
   </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>Ціль (репер) полярні</value>
+  <data name="label268.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;label138.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -10815,14 +10908,17 @@
   <data name="buttonZa12.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="label123.Text" xml:space="preserve">
-    <value>Тривалість:</value>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
   </data>
   <data name="label197.Error" xml:space="preserve">
     <value />
   </data>
   <data name="label158.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
+  </data>
+  <data name="&gt;&gt;button8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonT90.Parent" xml:space="preserve">
     <value>tabPage5</value>
@@ -10947,9 +11043,6 @@
   <data name="&gt;&gt;buttonZa1.ZOrder" xml:space="preserve">
     <value>73</value>
   </data>
-  <data name="label97.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="numericTextBox51.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -10999,7 +11092,7 @@
     <value>Top</value>
   </data>
   <data name="&gt;&gt;label254.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="buttonT7.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 23</value>
@@ -11031,8 +11124,8 @@
   <data name="buttonOF540V.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;label109.Parent" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="buttonApply2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;text_delH_delt0.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -11127,7 +11220,7 @@
   <data name="&gt;&gt;label218.Parent" xml:space="preserve">
     <value>panel17</value>
   </data>
-  <data name="buttonVS4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+  <data name="numericTextBox110.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
   <data name="panel3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
@@ -11171,6 +11264,9 @@
   </data>
   <data name="label100.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>Ціль (репер) полярні</value>
   </data>
   <data name="label125.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -11229,8 +11325,8 @@
   <data name="&gt;&gt;numericKC8Yc.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;label162.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="numericTextBox65.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 483</value>
@@ -11415,14 +11511,14 @@
   <data name="textX2.Location" type="System.Drawing.Point, System.Drawing">
     <value>227, 120</value>
   </data>
-  <data name="buttonYk11.Error" xml:space="preserve">
-    <value />
+  <data name="label_04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;label225.Name" xml:space="preserve">
     <value>label225</value>
   </data>
-  <data name="label87.TabIndex" type="System.Int32, mscorlib">
-    <value>68</value>
+  <data name="numericTextBox15.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;numericTextBox109.Parent" xml:space="preserve">
     <value>panel18</value>
@@ -11534,6 +11630,9 @@
   </data>
   <data name="&gt;&gt;buttonSO2.Name" xml:space="preserve">
     <value>buttonSO2</value>
+  </data>
+  <data name="label123.Text" xml:space="preserve">
+    <value>Тривалість:</value>
   </data>
   <data name="label21.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -11685,6 +11784,9 @@
   <data name="comboZar4.Items1" xml:space="preserve">
     <value>Повний змінний</value>
   </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 15</value>
+  </data>
   <data name="buttonYk2.Error" xml:space="preserve">
     <value />
   </data>
@@ -11757,6 +11859,9 @@
   <data name="label221.TabIndex" type="System.Int32, mscorlib">
     <value>70</value>
   </data>
+  <data name="textHmc1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="buttonXC12.Text" xml:space="preserve">
     <value>НЗВ</value>
   </data>
@@ -11808,9 +11913,6 @@
   <data name="label229.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;label193.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
   <data name="&gt;&gt;label82.Name" xml:space="preserve">
     <value>label82</value>
   </data>
@@ -11825,6 +11927,9 @@
   </data>
   <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
     <value>538, 18</value>
+  </data>
+  <data name="labelNaprSerVitru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label122.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -11907,8 +12012,8 @@
   <data name="buttonOC12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="numericKC8Kr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 48</value>
+  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
   </data>
   <data name="numericTextBox104.Location" type="System.Drawing.Point, System.Drawing">
     <value>433, 17</value>
@@ -12030,9 +12135,6 @@
   <data name="label52.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="label26.TabIndex" type="System.Int32, mscorlib">
-    <value>52</value>
-  </data>
   <data name="label106.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -12057,6 +12159,9 @@
   <data name="numericTextBox74.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="textMinutes1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="&gt;&gt;panelMetodVogon.Name" xml:space="preserve">
     <value>panelMetodVogon</value>
   </data>
@@ -12075,6 +12180,9 @@
   <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9.75pt, style=Bold</value>
   </data>
+  <data name="label243.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="buttonZSH2.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -12089,6 +12197,9 @@
   </data>
   <data name="label254.Location" type="System.Drawing.Point, System.Drawing">
     <value>318, 279</value>
+  </data>
+  <data name="label260.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;numericKC7Al.Parent" xml:space="preserve">
     <value>panel7</value>
@@ -12225,8 +12336,8 @@
   <data name="&gt;&gt;buttonZC1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label70.Error" xml:space="preserve">
-    <value />
+  <data name="textH6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 162</value>
   </data>
   <data name="numericKC6X.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
@@ -12381,6 +12492,9 @@
   <data name="label50.Error" xml:space="preserve">
     <value />
   </data>
+  <data name="label_30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="textDay1.Error" xml:space="preserve">
     <value />
   </data>
@@ -12435,14 +12549,17 @@
   <data name="textH3.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="numericTextBox18.Error" xml:space="preserve">
+  <data name="label97.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonYk11.Error" xml:space="preserve">
     <value />
   </data>
   <data name="&gt;&gt;buttonVS1.Name" xml:space="preserve">
     <value>buttonVS1</value>
   </data>
-  <data name="label23.Error" xml:space="preserve">
-    <value />
+  <data name="labelM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label239.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -12474,6 +12591,9 @@
   <data name="label98.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
+  <data name="numericTextBox18.Error" xml:space="preserve">
+    <value />
+  </data>
   <data name="panel14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -12501,17 +12621,14 @@
   <data name="value_t_dlW_Wy_9.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 269</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 19</value>
-  </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Y=</value>
   </data>
   <data name="label269.TabIndex" type="System.Int32, mscorlib">
     <value>183</value>
   </data>
-  <data name="label_60.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;label114.Parent" xml:space="preserve">
+    <value>tabPage3</value>
   </data>
   <data name="panelTryvalist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -12549,8 +12666,8 @@
   <data name="button5.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;numericTextBox85.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="label_4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="button33.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -12762,8 +12879,8 @@
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>tabBP</value>
   </data>
-  <data name="value_t_dlW_Wy_2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="labelMeteoSer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
     <value>77, 52</value>
@@ -12993,8 +13110,8 @@
   <data name="label180.Text" xml:space="preserve">
     <value>Темп засічки=</value>
   </data>
-  <data name="&gt;&gt;label162.Parent" xml:space="preserve">
-    <value>panel10</value>
+  <data name="&gt;&gt;label186.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;label247.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -13098,8 +13215,8 @@
   <data name="&gt;&gt;textX2.ZOrder" xml:space="preserve">
     <value>45</value>
   </data>
-  <data name="&gt;&gt;buttonSO13.Parent" xml:space="preserve">
-    <value>tabPage5</value>
+  <data name="numericTextBox49.Text" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="numericTextBox67.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -13335,6 +13452,9 @@
   <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
     <value>205, 104</value>
   </data>
+  <data name="&gt;&gt;numericTextBox93.Parent" xml:space="preserve">
+    <value>panel15</value>
+  </data>
   <data name="&gt;&gt;buttonKC13.Parent" xml:space="preserve">
     <value>tabPage5</value>
   </data>
@@ -13367,6 +13487,9 @@
   </data>
   <data name="&gt;&gt;textKolBP2.ZOrder" xml:space="preserve">
     <value>8</value>
+  </data>
+  <data name="label129.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="panel11.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -13476,9 +13599,6 @@
   <data name="&gt;&gt;comboInd2.ZOrder" xml:space="preserve">
     <value>68</value>
   </data>
-  <data name="&gt;&gt;buttonVV11.ZOrder" xml:space="preserve">
-    <value>47</value>
-  </data>
   <data name="label81.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
@@ -13544,9 +13664,6 @@
   </data>
   <data name="label_08.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;numericTextBox27.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="comboZar3.Items2" xml:space="preserve">
     <value>Зменшений змінний</value>
@@ -13617,6 +13734,9 @@
   <data name="&gt;&gt;numericTextBox101.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="label_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="&gt;&gt;textBox11.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -13631,6 +13751,9 @@
   </data>
   <data name="panelPryamCil.Size" type="System.Drawing.Size, System.Drawing">
     <value>565, 54</value>
+  </data>
+  <data name="label87.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
   </data>
   <data name="label225.Location" type="System.Drawing.Point, System.Drawing">
     <value>534, 34</value>
@@ -13965,8 +14088,8 @@
   <data name="&gt;&gt;panel14.Parent" xml:space="preserve">
     <value>tabPage5</value>
   </data>
-  <data name="textH4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;button28.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="panelPryamCil.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
@@ -13977,17 +14100,14 @@
   <data name="&gt;&gt;label164.Parent" xml:space="preserve">
     <value>panel11</value>
   </data>
-  <data name="numeric5KCDk.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;labelMeteoSer.Parent" xml:space="preserve">
+    <value>tabPage7</value>
   </data>
   <data name="&gt;&gt;textBox9.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textDalnZnosuKul.Location" type="System.Drawing.Point, System.Drawing">
     <value>259, 309</value>
-  </data>
-  <data name="numericTextBox15.Error" xml:space="preserve">
-    <value />
   </data>
   <data name="label212.TabIndex" type="System.Int32, mscorlib">
     <value>85</value>
@@ -13999,7 +14119,7 @@
     <value>textX7</value>
   </data>
   <data name="&gt;&gt;textDalnZnosuKul.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="label174.Text" xml:space="preserve">
     <value>h1=</value>
@@ -14018,6 +14138,9 @@
   </data>
   <data name="&gt;&gt;label169.Parent" xml:space="preserve">
     <value>panel12</value>
+  </data>
+  <data name="label134.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;textKA.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -14181,6 +14304,9 @@
   <data name="numericTextBox46.Location" type="System.Drawing.Point, System.Drawing">
     <value>448, 4</value>
   </data>
+  <data name="buttonYk1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 454</value>
+  </data>
   <data name="button5.Error" xml:space="preserve">
     <value />
   </data>
@@ -14235,17 +14361,11 @@
   <data name="&gt;&gt;label249.Parent" xml:space="preserve">
     <value>tabPage4</value>
   </data>
-  <data name="&gt;&gt;label185.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;label160.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="numericKC6Y1.Text" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="button27.Text" xml:space="preserve">
     <value>Дивізійний</value>
@@ -14397,7 +14517,7 @@
   <data name="button18.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="label134.Error" xml:space="preserve">
+  <data name="label36.Error" xml:space="preserve">
     <value />
   </data>
   <data name="label114.Size" type="System.Drawing.Size, System.Drawing">
@@ -14429,9 +14549,6 @@
   </data>
   <data name="&gt;&gt;label249.Name" xml:space="preserve">
     <value>label249</value>
-  </data>
-  <data name="label115.TabIndex" type="System.Int32, mscorlib">
-    <value>86</value>
   </data>
   <data name="label187.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 15</value>
@@ -14467,7 +14584,7 @@
     <value>numericTextBox109</value>
   </data>
   <data name="&gt;&gt;labelM.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>9</value>
   </data>
   <data name="buttonTV1.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -14556,8 +14673,8 @@
   <data name="label162.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 11</value>
   </data>
-  <data name="штукToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 22</value>
+  <data name="&gt;&gt;label258.Parent" xml:space="preserve">
+    <value>tabPage6</value>
   </data>
   <data name="label_12.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -14607,8 +14724,11 @@
   <data name="&gt;&gt;label208.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="numericTextBox56.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="numericTextBox100.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label86.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;text_delH_delt0.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -14651,6 +14771,9 @@
   </data>
   <data name="label140.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="label267.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="buttonZa1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -14829,6 +14952,9 @@
   <data name="buttonSO3.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;label109.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
   <data name="buttonOC13.Text" xml:space="preserve">
     <value>Рухома</value>
   </data>
@@ -14982,9 +15108,6 @@
   <data name="numericTextBox10.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;numericTextBox82.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="numericTextBox78.Error" xml:space="preserve">
     <value />
   </data>
@@ -15038,9 +15161,6 @@
   </data>
   <data name="label30.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
-  </data>
-  <data name="label183.Text" xml:space="preserve">
-    <value> α2=</value>
   </data>
   <data name="&gt;&gt;label75.Parent" xml:space="preserve">
     <value>panel4</value>
@@ -15120,8 +15240,8 @@
   <data name="&gt;&gt;label41.ZOrder" xml:space="preserve">
     <value>88</value>
   </data>
-  <data name="label212.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="button22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 16</value>
   </data>
   <data name="&gt;&gt;textKA.Name" xml:space="preserve">
     <value>textKA</value>
@@ -15219,6 +15339,9 @@
   <data name="label79.Text" xml:space="preserve">
     <value>h=</value>
   </data>
+  <data name="&gt;&gt;label136.Name" xml:space="preserve">
+    <value>label136</value>
+  </data>
   <data name="buttonXC11.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -15269,6 +15392,9 @@
   </data>
   <data name="label191.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
+  </data>
+  <data name="label_08.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;numeric5KCDk.Parent" xml:space="preserve">
     <value>panel5</value>
@@ -15361,7 +15487,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label256.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="label25.TabIndex" type="System.Int32, mscorlib">
     <value>53</value>
@@ -15504,6 +15630,9 @@
   <data name="label174.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;label57.Parent" xml:space="preserve">
+    <value>tabBP</value>
+  </data>
   <data name="numericTextBox51.Location" type="System.Drawing.Point, System.Drawing">
     <value>471, 48</value>
   </data>
@@ -15571,7 +15700,7 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;label260.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="numericSnaryadiv.Error" xml:space="preserve">
     <value />
@@ -15584,6 +15713,9 @@
   </data>
   <data name="buttonXC12.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
+  </data>
+  <data name="label244.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;buttonZSH2.Name" xml:space="preserve">
     <value>buttonZSH2</value>
@@ -15666,8 +15798,8 @@
   <data name="numericTextBox11.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="buttonMeteoSer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;label179.Parent" xml:space="preserve">
+    <value>panel13</value>
   </data>
   <data name="&gt;&gt;label175.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -15689,9 +15821,6 @@
   </data>
   <data name="button20.Text" xml:space="preserve">
     <value>НЗВ (РЗВ) координати ЦЕНТР</value>
-  </data>
-  <data name="&gt;&gt;numericTextBox47.Parent" xml:space="preserve">
-    <value>panel2</value>
   </data>
   <data name="numericKC7Ir.Text" xml:space="preserve">
     <value>0</value>
@@ -15729,6 +15858,9 @@
   <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
     <value>tabPage3</value>
   </data>
+  <data name="numericTextBox114.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="labelShvSerVitru.TabIndex" type="System.Int32, mscorlib">
     <value>110</value>
   </data>
@@ -15762,6 +15894,9 @@
   <data name="&gt;&gt;label175.Name" xml:space="preserve">
     <value>label175</value>
   </data>
+  <data name="textHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="textBox1.Error" xml:space="preserve">
     <value />
   </data>
@@ -15773,9 +15908,6 @@
   </data>
   <data name="label215.Error" xml:space="preserve">
     <value />
-  </data>
-  <data name="&gt;&gt;label84.ZOrder" xml:space="preserve">
-    <value>9</value>
   </data>
   <data name="label148.Text" xml:space="preserve">
     <value>засічки</value>
@@ -15822,6 +15954,9 @@
   <data name="numericTextBox73.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
   </data>
+  <data name="label199.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
   <data name="&gt;&gt;label67.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
@@ -15857,6 +15992,9 @@
   </data>
   <data name="&gt;&gt;label135.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericTextBox85.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <data name="label71.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
@@ -15975,8 +16113,8 @@
   <data name="label100.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="numericKChc.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
+  <data name="&gt;&gt;dataGridView2.Name" xml:space="preserve">
+    <value>dataGridView2</value>
   </data>
   <data name="comboBox7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -16074,9 +16212,6 @@
   <data name="label_50.TabIndex" type="System.Int32, mscorlib">
     <value>170</value>
   </data>
-  <data name="textY4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
   <data name="&gt;&gt;label_3.Name" xml:space="preserve">
     <value>label_3</value>
   </data>
@@ -16140,8 +16275,8 @@
   <data name="numericTextBox79.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;label186.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="label183.Text" xml:space="preserve">
+    <value> α2=</value>
   </data>
   <data name="&gt;&gt;buttonPK11.ZOrder" xml:space="preserve">
     <value>76</value>
@@ -16154,9 +16289,6 @@
   </data>
   <data name="&gt;&gt;label178.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button13.Name" xml:space="preserve">
-    <value>button13</value>
   </data>
   <data name="label198.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -16449,9 +16581,6 @@
   <data name="&gt;&gt;buttonKC2.Name" xml:space="preserve">
     <value>buttonKC2</value>
   </data>
-  <data name="numericTextBox83.TabIndex" type="System.Int32, mscorlib">
-    <value>57</value>
-  </data>
   <data name="&gt;&gt;label27.Parent" xml:space="preserve">
     <value>tabBP</value>
   </data>
@@ -16638,8 +16767,8 @@
   <data name="comboBox4.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;numericTextBox91.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;label110.Parent" xml:space="preserve">
+    <value>tabPage3</value>
   </data>
   <data name="&gt;&gt;numericTextBox20.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -16700,6 +16829,9 @@
   </data>
   <data name="&gt;&gt;label124.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label266.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label217.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -16809,6 +16941,9 @@
   <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 15</value>
   </data>
+  <data name="label255.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="buttonOC11.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 171</value>
   </data>
@@ -16822,7 +16957,7 @@
     <value>ПРАВА</value>
   </data>
   <data name="&gt;&gt;buttonVR2.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="numericTextBox60.Location" type="System.Drawing.Point, System.Drawing">
     <value>403, 49</value>
@@ -16859,9 +16994,6 @@
   </data>
   <data name="&gt;&gt;comboAC.Parent" xml:space="preserve">
     <value>tabBP</value>
-  </data>
-  <data name="label164.TabIndex" type="System.Int32, mscorlib">
-    <value>98</value>
   </data>
   <data name="&gt;&gt;label32.Parent" xml:space="preserve">
     <value>tabBP</value>
@@ -16928,9 +17060,6 @@
   </data>
   <data name="&gt;&gt;label89.Parent" xml:space="preserve">
     <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;buttonVS12.Parent" xml:space="preserve">
-    <value>tabPage5</value>
   </data>
   <data name="&gt;&gt;label219.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -17024,6 +17153,9 @@
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 15</value>
+  </data>
+  <data name="comboInd5.Items6" xml:space="preserve">
+    <value>ОФ-540В</value>
   </data>
   <data name="textT0.Location" type="System.Drawing.Point, System.Drawing">
     <value>258, 214</value>
@@ -17355,6 +17487,9 @@
   <data name="label138.TabIndex" type="System.Int32, mscorlib">
     <value>88</value>
   </data>
+  <data name="label110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 486</value>
+  </data>
   <data name="button30.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 15</value>
   </data>
@@ -17418,9 +17553,6 @@
   <data name="label73.Location" type="System.Drawing.Point, System.Drawing">
     <value>467, 23</value>
   </data>
-  <data name="buttonZa3.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="numericTextBox27.Text" xml:space="preserve">
     <value>0</value>
   </data>
@@ -17436,8 +17568,8 @@
   <data name="label163.Text" xml:space="preserve">
     <value>По</value>
   </data>
-  <data name="&gt;&gt;button23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label72.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
   </data>
   <data name="&gt;&gt;label107.Name" xml:space="preserve">
     <value>label107</value>
@@ -17495,9 +17627,6 @@
   </data>
   <data name="label68.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 20</value>
   </data>
   <data name="label192.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -17577,11 +17706,14 @@
   <data name="&gt;&gt;numericTextBox113.Parent" xml:space="preserve">
     <value>tabPage6</value>
   </data>
+  <data name="labelMSec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="textBox7.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label125.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label70.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="numericTextBox11.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
@@ -17651,9 +17783,6 @@
   </data>
   <data name="&gt;&gt;buttonKC4.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 15</value>
   </data>
   <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -17817,6 +17946,9 @@
   <data name="&gt;&gt;buttonOC2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="label187.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 13</value>
   </data>
@@ -17845,7 +17977,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;button33.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>8</value>
   </data>
   <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 13</value>
@@ -18129,9 +18261,6 @@
   <data name="&gt;&gt;label40.Name" xml:space="preserve">
     <value>label40</value>
   </data>
-  <data name="numericTextBox64.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
-  </data>
   <data name="&gt;&gt;button24.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
@@ -18219,20 +18348,20 @@
   <data name="&gt;&gt;textH5.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="label182.Text" xml:space="preserve">
-    <value> д2=</value>
+  <data name="label164.TabIndex" type="System.Int32, mscorlib">
+    <value>98</value>
   </data>
   <data name="numericTextBox84.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label185.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="штукToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
   </data>
   <data name="label158.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 296</value>
   </data>
-  <data name="&gt;&gt;button8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label228.Text" xml:space="preserve">
+    <value>Xл=</value>
   </data>
   <data name="&gt;&gt;panel4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -18246,8 +18375,8 @@
   <data name="label221.Text" xml:space="preserve">
     <value>КУТ=</value>
   </data>
-  <data name="&gt;&gt;textKA.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;numericTextBox91.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="buttonOC12.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 23</value>
@@ -18279,8 +18408,8 @@
   <data name="&gt;&gt;button10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label110.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 486</value>
+  <data name="&gt;&gt;textX2.Name" xml:space="preserve">
+    <value>textX2</value>
   </data>
   <data name="&gt;&gt;label_2.Parent" xml:space="preserve">
     <value>tabPage7</value>
@@ -18300,8 +18429,8 @@
   <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 23</value>
   </data>
-  <data name="label65.Text" xml:space="preserve">
-    <value> αп=</value>
+  <data name="numericKChc.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
   </data>
   <data name="&gt;&gt;numericTextBox65.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -18615,8 +18744,8 @@
   <data name="&gt;&gt;buttonPK1.ZOrder" xml:space="preserve">
     <value>70</value>
   </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 15</value>
+  <data name="label77.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;buttonXC2.ZOrder" xml:space="preserve">
     <value>67</value>
@@ -18625,7 +18754,7 @@
     <value> д2=</value>
   </data>
   <data name="&gt;&gt;textAW01.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label171.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -18668,9 +18797,6 @@
   </data>
   <data name="&gt;&gt;numericTextBox78.ZOrder" xml:space="preserve">
     <value>15</value>
-  </data>
-  <data name="comboPidr4.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="panel1.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -18932,6 +19058,9 @@
   </data>
   <data name="&gt;&gt;label252.ZOrder" xml:space="preserve">
     <value>24</value>
+  </data>
+  <data name="label242.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="textX5.Text" xml:space="preserve">
     <value>0</value>
@@ -19206,9 +19335,6 @@
   <data name="numericTextBox110.TabIndex" type="System.Int32, mscorlib">
     <value>56</value>
   </data>
-  <data name="&gt;&gt;label234.Name" xml:space="preserve">
-    <value>label234</value>
-  </data>
   <data name="label269.Error" xml:space="preserve">
     <value />
   </data>
@@ -19344,11 +19470,11 @@
   <data name="&gt;&gt;label152.Name" xml:space="preserve">
     <value>label152</value>
   </data>
-  <data name="&gt;&gt;label136.Name" xml:space="preserve">
-    <value>label136</value>
+  <data name="&gt;&gt;label125.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label257.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="numericKC8Yc.Text" xml:space="preserve">
     <value>0</value>
@@ -19455,8 +19581,8 @@
   <data name="buttonSB2.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="comboInd5.Items6" xml:space="preserve">
-    <value>ОФ-540В</value>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="&gt;&gt;button23.ZOrder" xml:space="preserve">
     <value>19</value>
@@ -19466,6 +19592,9 @@
   </data>
   <data name="label115.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="label73.Text" xml:space="preserve">
+    <value>h=</value>
   </data>
   <data name="buttonXC11.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -19496,9 +19625,6 @@
   </data>
   <data name="textBulletin.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
-  </data>
-  <data name="label153.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 13</value>
   </data>
   <data name="numericTextBox109.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
@@ -19548,8 +19674,8 @@
   <data name="&gt;&gt;buttonXC1.Name" xml:space="preserve">
     <value>buttonXC1</value>
   </data>
-  <data name="&gt;&gt;buttonTV12.Parent" xml:space="preserve">
-    <value>tabPage5</value>
+  <data name="numeric5KCMk.Text" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="numericKC7Ap.Location" type="System.Drawing.Point, System.Drawing">
     <value>107, 49</value>
@@ -19566,6 +19692,9 @@
   <data name="numericTextBox90.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
   </data>
+  <data name="labelDalnistZnosuKul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="labelPSiUV.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -19575,8 +19704,8 @@
   <data name="&gt;&gt;value_t_dlW_Wy_8.Parent" xml:space="preserve">
     <value>tabPage7</value>
   </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="buttonPK12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -19589,6 +19718,9 @@
   </data>
   <data name="&gt;&gt;buttonZC1.Name" xml:space="preserve">
     <value>buttonZC1</value>
+  </data>
+  <data name="textH4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="numericTextBox67.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -19683,8 +19815,8 @@
   <data name="&gt;&gt;Third.Name" xml:space="preserve">
     <value>Third</value>
   </data>
-  <data name="label43.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="label172.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="dataGridView1.Error" xml:space="preserve">
     <value />
@@ -19695,8 +19827,8 @@
   <data name="numericFrontCili1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;buttonSO12.Name" xml:space="preserve">
-    <value>buttonSO12</value>
+  <data name="numericTextBox95.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;label189.Name" xml:space="preserve">
     <value>label189</value>
@@ -19797,14 +19929,17 @@
   <data name="&gt;&gt;label239.ZOrder" xml:space="preserve">
     <value>41</value>
   </data>
-  <data name="&gt;&gt;label110.Parent" xml:space="preserve">
-    <value>tabPage3</value>
+  <data name="numericTextBox113.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 98</value>
   </data>
   <data name="&gt;&gt;textH5.Parent" xml:space="preserve">
     <value>tabBP</value>
   </data>
   <data name="textT0.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="label70.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="numericKC6h.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -19974,11 +20109,11 @@
   <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
     <value>586, 580</value>
   </data>
-  <data name="&gt;&gt;label179.Parent" xml:space="preserve">
-    <value>panel13</value>
-  </data>
   <data name="numericTextBox94.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
+  </data>
+  <data name="label143.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 65</value>
   </data>
   <data name="numericTextBox32.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -20054,9 +20189,6 @@
   </data>
   <data name="&gt;&gt;label250.ZOrder" xml:space="preserve">
     <value>18</value>
-  </data>
-  <data name="buttonKC12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
   </data>
   <data name="&gt;&gt;label_02.Name" xml:space="preserve">
     <value>label_02</value>
@@ -20178,6 +20310,9 @@
   <data name="label242.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 221</value>
   </data>
+  <data name="label258.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="label165.Text" xml:space="preserve">
     <value>Тривалість:</value>
   </data>
@@ -20283,8 +20418,8 @@
   <data name="numericTextBox22.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 20</value>
   </data>
-  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
-    <value>tabControl1</value>
+  <data name="label244.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="value_t_dlW_Wy_9.Error" xml:space="preserve">
     <value />
@@ -20310,8 +20445,8 @@
   <data name="numericTextBox97.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label94.TabIndex" type="System.Int32, mscorlib">
-    <value>67</value>
+  <data name="textKolBP4.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="label182.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 13</value>
@@ -20325,8 +20460,8 @@
   <data name="label101.TabIndex" type="System.Int32, mscorlib">
     <value>72</value>
   </data>
-  <data name="numericTextBox4.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;label68.Parent" xml:space="preserve">
+    <value>panel7</value>
   </data>
   <data name="label89.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -20343,8 +20478,8 @@
   <data name="numericTextBox60.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="label132.Error" xml:space="preserve">
-    <value />
+  <data name="comboPidr4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;label182.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -20406,8 +20541,8 @@
   <data name="value_t_dlW_Wy_2.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 90</value>
   </data>
-  <data name="text_delH_delt0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>411, 21</value>
+  <data name="label_02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;textNazvaPunktu.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -20421,8 +20556,8 @@
   <data name="&gt;&gt;labelPSiUV.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="&gt;&gt;buttonVS12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label_60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="textNaBatareu.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -20673,6 +20808,9 @@
   <data name="&gt;&gt;label124.Parent" xml:space="preserve">
     <value>panelTryvalist</value>
   </data>
+  <data name="label_20.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
   <data name="label38.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9.75pt</value>
   </data>
@@ -20805,8 +20943,8 @@
   <data name="textH0_1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;comboBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
   </data>
   <data name="panel10.Error" xml:space="preserve">
     <value />
@@ -20870,6 +21008,9 @@
   </data>
   <data name="&gt;&gt;comboZar1.Name" xml:space="preserve">
     <value>comboZar1</value>
+  </data>
+  <data name="textT01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;buttonPK2.Parent" xml:space="preserve">
     <value>tabPage3</value>
@@ -20943,8 +21084,8 @@
   <data name="textHmc1.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
   </data>
-  <data name="buttonYk1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 454</value>
+  <data name="buttonKC13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;label149.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -20976,8 +21117,8 @@
   <data name="&gt;&gt;panel13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="numericTextBox100.Error" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;numericTextBox96.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
   <data name="label85.Error" xml:space="preserve">
     <value />
@@ -21011,6 +21152,9 @@
   </data>
   <data name="label178.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="label_12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="buttonSO1.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 399</value>
@@ -21066,8 +21210,8 @@
   <data name="label171.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="numericTextBox107.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
+  <data name="label212.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="textBox14.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -21080,6 +21224,9 @@
   </data>
   <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="label120.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
   </data>
   <data name="buttonKC3.Error" xml:space="preserve">
     <value />
@@ -21096,6 +21243,9 @@
   <data name="numericTextBox111.TabIndex" type="System.Int32, mscorlib">
     <value>55</value>
   </data>
+  <data name="label_08.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
   <data name="numeric5KCAk.Text" xml:space="preserve">
     <value>0</value>
   </data>
@@ -21103,7 +21253,7 @@
     <value>65</value>
   </data>
   <data name="&gt;&gt;label265.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>22</value>
   </data>
   <data name="label228.Error" xml:space="preserve">
     <value />
@@ -21405,8 +21555,11 @@
   <data name="numericTextBox37.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;buttonVS4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonZC12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="buttonMeteoSer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="textX5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -21441,8 +21594,8 @@
   <data name="buttonOF540.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="label199.TabIndex" type="System.Int32, mscorlib">
-    <value>55</value>
+  <data name="tabControl1.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;label129.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -21509,6 +21662,9 @@
   </data>
   <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
     <value>1166, 724</value>
+  </data>
+  <data name="textAW01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;label139.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -21591,14 +21747,14 @@
   <data name="&gt;&gt;buttonVR2.Name" xml:space="preserve">
     <value>buttonVR2</value>
   </data>
-  <data name="&gt;&gt;button20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="textH1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;numericTextBox75.Name" xml:space="preserve">
     <value>numericTextBox75</value>
   </data>
   <data name="&gt;&gt;label263.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>20</value>
   </data>
   <data name="numericTextBox89.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -21645,6 +21801,9 @@
   <data name="&gt;&gt;numericTextBox13.Parent" xml:space="preserve">
     <value>panelMetodVogon</value>
   </data>
+  <data name="label241.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="&gt;&gt;label211.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -21680,6 +21839,9 @@
   </data>
   <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
+  </data>
+  <data name="label_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;button31.Name" xml:space="preserve">
     <value>button31</value>
@@ -21750,11 +21912,11 @@
   <data name="label189.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="textT0_1.TabIndex" type="System.Int32, mscorlib">
-    <value>102</value>
+  <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>6</value>
   </data>
   <data name="label167.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 13</value>
@@ -21776,6 +21938,9 @@
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>37</value>
+  </data>
+  <data name="label259.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label216.Text" xml:space="preserve">
     <value>Глибина цілі:</value>
@@ -21852,8 +22017,8 @@
   <data name="&gt;&gt;numericTextBox59.Name" xml:space="preserve">
     <value>numericTextBox59</value>
   </data>
-  <data name="label103.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
   </data>
   <data name="panel17.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -21926,6 +22091,9 @@
   </data>
   <data name="buttonXC3.Location" type="System.Drawing.Point, System.Drawing">
     <value>357, 119</value>
+  </data>
+  <data name="numericTextBox34.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="buttonOC12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -22068,6 +22236,9 @@
   <data name="&gt;&gt;textNoCili.Parent" xml:space="preserve">
     <value>tabPage3</value>
   </data>
+  <data name="numeric5KCDk.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
   <data name="&gt;&gt;buttonOC3.Parent" xml:space="preserve">
     <value>tabPage3</value>
   </data>
@@ -22113,8 +22284,8 @@
   <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
     <value>114</value>
   </data>
-  <data name="numericTextBox110.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;numericTextBox82.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;buttonVV3.Name" xml:space="preserve">
     <value>buttonVV3</value>
@@ -22203,11 +22374,17 @@
   <data name="&gt;&gt;numericTextBox65.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label251.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="buttonYk2.Text" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="&gt;&gt;textPozivnyi6.ZOrder" xml:space="preserve">
     <value>37</value>
+  </data>
+  <data name="textDalnZnosuKul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="TextBoxH01.Error" xml:space="preserve">
     <value />
@@ -22229,6 +22406,9 @@
   </data>
   <data name="&gt;&gt;label168.Parent" xml:space="preserve">
     <value>panel12</value>
+  </data>
+  <data name="label261.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label201.Location" type="System.Drawing.Point, System.Drawing">
     <value>317, 52</value>
@@ -22301,6 +22481,9 @@
   </data>
   <data name="&gt;&gt;label53.Parent" xml:space="preserve">
     <value>tabBP</value>
+  </data>
+  <data name="textH01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;numericTextBox91.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -22416,8 +22599,8 @@
   <data name="textX7.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;textY5.ZOrder" xml:space="preserve">
-    <value>27</value>
+  <data name="&gt;&gt;textBox10.Name" xml:space="preserve">
+    <value>textBox10</value>
   </data>
   <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
     <value>112</value>
@@ -22440,8 +22623,8 @@
   <data name="&gt;&gt;numericTextBox95.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="label70.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="textW0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;label139.Parent" xml:space="preserve">
     <value>panel3</value>
@@ -22596,8 +22779,8 @@
   <data name="buttonVS12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="buttonVS13.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+  <data name="&gt;&gt;numericTextBox47.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
   <data name="&gt;&gt;numericTextBox48.Name" xml:space="preserve">
     <value>numericTextBox48</value>
@@ -22641,6 +22824,9 @@
   <data name="label65.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 13</value>
   </data>
+  <data name="buttonTV13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
   <data name="&gt;&gt;textBox13.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -22670,6 +22856,12 @@
   </data>
   <data name="label34.Error" xml:space="preserve">
     <value />
+  </data>
+  <data name="label182.Text" xml:space="preserve">
+    <value> д2=</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
   </data>
   <data name="&gt;&gt;label156.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -22743,6 +22935,9 @@
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
     <value>858, 141</value>
   </data>
+  <data name="label222.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="buttonKC8.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 23</value>
   </data>
@@ -22791,8 +22986,8 @@
   <data name="label114.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="numericTextBox48.Location" type="System.Drawing.Point, System.Drawing">
-    <value>472, 14</value>
+  <data name="label103.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;label163.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -22896,8 +23091,8 @@
   <data name="&gt;&gt;numericKC8Kr.Parent" xml:space="preserve">
     <value>panel8</value>
   </data>
-  <data name="numericKCXc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="numericSnaryadiv.Text" xml:space="preserve">
     <value>0</value>
@@ -22908,8 +23103,8 @@
   <data name="label164.Location" type="System.Drawing.Point, System.Drawing">
     <value>155, 16</value>
   </data>
-  <data name="label126.Error" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;buttonVV11.ZOrder" xml:space="preserve">
+    <value>47</value>
   </data>
   <data name="&gt;&gt;textX4.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -23001,6 +23196,9 @@
   <data name="&gt;&gt;label72.Name" xml:space="preserve">
     <value>label72</value>
   </data>
+  <data name="textT0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="label208.TabIndex" type="System.Int32, mscorlib">
     <value>68</value>
   </data>
@@ -23049,8 +23247,8 @@
   <data name="&gt;&gt;button17.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonTV13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="label262.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;textPozivnyi1.Parent" xml:space="preserve">
     <value>tabBP</value>
@@ -23202,8 +23400,8 @@
   <data name="&gt;&gt;label106.Name" xml:space="preserve">
     <value>label106</value>
   </data>
-  <data name="label20.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="numericTextBox48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>472, 14</value>
   </data>
   <data name="&gt;&gt;textNoCili1.Parent" xml:space="preserve">
     <value>tabPage5</value>
@@ -23274,8 +23472,8 @@
   <data name="label75.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="name_of_station.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;buttonVS12.Parent" xml:space="preserve">
+    <value>tabPage5</value>
   </data>
   <data name="&gt;&gt;label251.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -23373,8 +23571,8 @@
   <data name="&gt;&gt;numericTextBox24.Type" xml:space="preserve">
     <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label153.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="label99.TabIndex" type="System.Int32, mscorlib">
     <value>74</value>
@@ -23424,8 +23622,8 @@
   <data name="&gt;&gt;label241.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label_08.TabIndex" type="System.Int32, mscorlib">
-    <value>162</value>
+  <data name="buttonOF22.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="&gt;&gt;numericTextBox103.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -23436,8 +23634,8 @@
   <data name="label127.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;textKolBP3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="buttonPK1.Error" xml:space="preserve">
+    <value />
   </data>
   <data name="labelShvSerVitru.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -23497,7 +23695,7 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;label261.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="&gt;&gt;TextBoxH01.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -23625,6 +23823,9 @@
   <data name="&gt;&gt;numericTextBox54.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="label185.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;textDate.Parent" xml:space="preserve">
     <value>tabPage7</value>
   </data>
@@ -23736,14 +23937,17 @@
   <data name="&gt;&gt;buttonKC7batareiniy.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
+  <data name="textDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="label71.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label35.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="buttonOC3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 23</value>
+  <data name="&gt;&gt;label159.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label25.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -23753,6 +23957,9 @@
   </data>
   <data name="&gt;&gt;buttonZa2.Parent" xml:space="preserve">
     <value>tabPage3</value>
+  </data>
+  <data name="label247.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;частинНормиToolStripMenuItem.Name" xml:space="preserve">
     <value>частинНормиToolStripMenuItem</value>
@@ -23811,6 +24018,9 @@
   <data name="label51.TabIndex" type="System.Int32, mscorlib">
     <value>98</value>
   </data>
+  <data name="textH0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
@@ -23856,8 +24066,8 @@
   <data name="numericTextBox71.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label86.Name" xml:space="preserve">
-    <value>label86</value>
+  <data name="&gt;&gt;button13.Name" xml:space="preserve">
+    <value>button13</value>
   </data>
   <data name="textHmc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -24045,6 +24255,9 @@
   <data name="buttonOF22.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 23</value>
   </data>
+  <data name="textMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
   <data name="&gt;&gt;buttonYk12.Name" xml:space="preserve">
     <value>buttonYk12</value>
   </data>
@@ -24135,8 +24348,8 @@
   <data name="label255.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label10.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;label52.ZOrder" xml:space="preserve">
+    <value>74</value>
   </data>
   <data name="label237.Location" type="System.Drawing.Point, System.Drawing">
     <value>127, 124</value>
@@ -24174,8 +24387,8 @@
   <data name="textX1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="buttonZC12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 23</value>
+  <data name="buttonVV11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="label117.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -24246,11 +24459,14 @@
   <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
     <value>22, 52</value>
   </data>
-  <data name="&gt;&gt;textY6.Name" xml:space="preserve">
-    <value>textY6</value>
+  <data name="label153.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
   </data>
   <data name="buttonXC3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
+  </data>
+  <data name="zastosuvaty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="label68.Size" type="System.Drawing.Size, System.Drawing">
     <value>28, 13</value>
@@ -24315,11 +24531,14 @@
   <data name="&gt;&gt;button9.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
+  <data name="label_40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="numericTextBox90.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
   </data>
-  <data name="comboPidr3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;numericTextBox27.Type" xml:space="preserve">
+    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="textY6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -24336,8 +24555,8 @@
   <data name="&gt;&gt;label146.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="&gt;&gt;dataGridView2.Name" xml:space="preserve">
-    <value>dataGridView2</value>
+  <data name="textX5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>765, 120</value>
   </data>
   <data name="label112.Error" xml:space="preserve">
     <value />
@@ -24384,8 +24603,8 @@
   <data name="numericTextBox26.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="buttonOF22.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;label228.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="label43.Error" xml:space="preserve">
     <value />
@@ -24450,8 +24669,8 @@
   <data name="label123.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 13</value>
   </data>
-  <data name="label222.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="buttonKC7Divisiyniy.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
   <data name="buttonZC12.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -24486,8 +24705,8 @@
   <data name="label198.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="textKolBP4.Error" xml:space="preserve">
-    <value />
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
   </data>
   <data name="button20.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -24606,8 +24825,8 @@
   <data name="labelNaprSerVitru.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="label189.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;label145.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="buttonVV6.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -24681,8 +24900,8 @@
   <data name="numericTextBox54.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="label86.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="label200.Error" xml:space="preserve">
     <value />
@@ -24825,8 +25044,8 @@
   <data name="label172.Text" xml:space="preserve">
     <value>засічки</value>
   </data>
-  <data name="label143.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, 65</value>
+  <data name="label270.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;label54.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -24836,6 +25055,9 @@
   </data>
   <data name="buttonOC1.Error" xml:space="preserve">
     <value />
+  </data>
+  <data name="textDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;label136.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -24921,8 +25143,8 @@
   <data name="label118.Location" type="System.Drawing.Point, System.Drawing">
     <value>539, 431</value>
   </data>
-  <data name="label174.TabIndex" type="System.Int32, mscorlib">
-    <value>76</value>
+  <data name="label43.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="label166.Location" type="System.Drawing.Point, System.Drawing">
     <value>211, 151</value>
@@ -24946,7 +25168,7 @@
     <value>0</value>
   </data>
   <data name="&gt;&gt;textHmc1.Type" xml:space="preserve">
-    <value>numericTextBox.NumericTextBox, NumericTextBox, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textX6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
@@ -24978,8 +25200,8 @@
   <data name="label10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
     <value>MiddleRight</value>
   </data>
-  <data name="numericTextBox95.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="numericTextBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 20</value>
   </data>
   <data name="textY4.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
@@ -25124,6 +25346,9 @@
   </data>
   <data name="&gt;&gt;labelShvSerVitru.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonVS4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="numericKC6Xp.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
@@ -25278,6 +25503,9 @@
   <data name="label41.TabIndex" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
+  <data name="labelGradus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="&gt;&gt;label35.Name" xml:space="preserve">
     <value>label35</value>
   </data>
@@ -25374,8 +25602,8 @@
   <data name="numericTextBox55.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="label209.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="numericKC8Kr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 48</value>
   </data>
   <data name="&gt;&gt;labelPSiUV.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -25455,8 +25683,8 @@
   <data name="&gt;&gt;comboInd4.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonXC1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 119</value>
+  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label58.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -25514,6 +25742,9 @@
   </data>
   <data name="label195.Location" type="System.Drawing.Point, System.Drawing">
     <value>467, 23</value>
+  </data>
+  <data name="value_t_dlW_Wy_2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
   </data>
   <data name="textBox7.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -25638,8 +25869,8 @@
   <data name="label77.Text" xml:space="preserve">
     <value>Д=</value>
   </data>
-  <data name="numericTextBox100.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="comboPidr3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="comboInd1.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -25656,20 +25887,26 @@
   <data name="button29.Text" xml:space="preserve">
     <value>Батарейний</value>
   </data>
+  <data name="label265.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="textY2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="buttonSO13.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
-    <value>96</value>
+  <data name="&gt;&gt;textHours1.Name" xml:space="preserve">
+    <value>textHours1</value>
   </data>
   <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="textX6.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="value_t_dlW_Wy_9.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
   </data>
   <data name="buttonXC3.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -25752,9 +25989,6 @@
   <data name="buttonTV1.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 508</value>
   </data>
-  <data name="textX5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>765, 120</value>
-  </data>
   <data name="tabPage4.Error" xml:space="preserve">
     <value />
   </data>
@@ -25821,11 +26055,11 @@
   <data name="button23.Error" xml:space="preserve">
     <value />
   </data>
-  <data name="label_20.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
-    <value>MiddleRight</value>
+  <data name="label189.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;label145.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="labelShvSerVitru.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="label141.Location" type="System.Drawing.Point, System.Drawing">
     <value>377, 51</value>
@@ -25839,8 +26073,8 @@
   <data name="buttonT90.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="button12.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;textKolBP3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;buttonKC5Polyarni.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -25854,8 +26088,14 @@
   <data name="&gt;&gt;label_16.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
+  <data name="label246.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
   <data name="label234.TabIndex" type="System.Int32, mscorlib">
     <value>77</value>
+  </data>
+  <data name="buttonZa2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="numericTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>132</value>
@@ -26010,14 +26250,17 @@
   <data name="textY6.Text" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label218.TabIndex" type="System.Int32, mscorlib">
-    <value>78</value>
+  <data name="&gt;&gt;buttonTV12.Parent" xml:space="preserve">
+    <value>tabPage5</value>
   </data>
   <data name="label122.Text" xml:space="preserve">
     <value>снаряди біглим, решта:</value>
   </data>
   <data name="&gt;&gt;buttonVS14.Name" xml:space="preserve">
     <value>buttonVS14</value>
+  </data>
+  <data name="label248.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="textdV0.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -26040,8 +26283,8 @@
   <data name="&gt;&gt;label181.Parent" xml:space="preserve">
     <value>panel13</value>
   </data>
-  <data name="&gt;&gt;label228.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;labelDalnistZnosuKul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label183.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -26061,8 +26304,8 @@
   <data name="label118.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="numericKC6hc.TabIndex" type="System.Int32, mscorlib">
-    <value>60</value>
+  <data name="label254.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
   </data>
   <data name="&gt;&gt;text_hmc.ZOrder" xml:space="preserve">
     <value>12</value>
@@ -26133,8 +26376,8 @@
   <data name="buttonXC2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="label77.IconPadding" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="text_delH_delt0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 21</value>
   </data>
   <data name="&gt;&gt;label199.Parent" xml:space="preserve">
     <value>panel15</value>
@@ -26229,8 +26472,8 @@
   <data name="buttonV429.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="buttonKC13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="textX4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="numericFrontCili.Error" xml:space="preserve">
     <value />
@@ -26256,8 +26499,8 @@
   <data name="label236.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;textBox10.Name" xml:space="preserve">
-    <value>textBox10</value>
+  <data name="label142.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
   </data>
   <data name="&gt;&gt;buttonTV14.ZOrder" xml:space="preserve">
     <value>55</value>
@@ -26305,7 +26548,7 @@
     <value>Top</value>
   </data>
   <data name="&gt;&gt;buttonMeteoSer.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="label_1.IconPadding" type="System.Int32, mscorlib">
     <value>0</value>
@@ -26370,11 +26613,11 @@
   <data name="&gt;&gt;comboKC7Other.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="buttonZa2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="textBulletin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
-  <data name="textH1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="buttonKC12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="numericTextBox105.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
@@ -26430,8 +26673,8 @@
   <data name="&gt;&gt;panelVydSnaryadu.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;label159.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label234.Name" xml:space="preserve">
+    <value>label234</value>
   </data>
   <data name="name_of_station.TabIndex" type="System.Int32, mscorlib">
     <value>189</value>
@@ -26467,7 +26710,7 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>69</value>
+    <value>25</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>uk-UA</value>

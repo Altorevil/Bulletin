@@ -681,6 +681,11 @@ namespace SkladannyaBuletnya
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.zastosuvaty = new System.Windows.Forms.Button();
+            this.label270 = new System.Windows.Forms.Label();
+            this.textBulletin = new System.Windows.Forms.TextBox();
+            this.buttonDMK = new System.Windows.Forms.Button();
+            this.buttonMeteoSer = new System.Windows.Forms.Button();
+            this.buttonVR2 = new System.Windows.Forms.Button();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.textAW0 = new numericTextBox.NumericTextBox(this.components);
@@ -710,11 +715,17 @@ namespace SkladannyaBuletnya
             this.label252 = new System.Windows.Forms.Label();
             this.label253 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.textDalnZnosuKul = new numericTextBox.NumericTextBox(this.components);
-            this.textHmc1 = new numericTextBox.NumericTextBox(this.components);
-            this.textMinutes1 = new numericTextBox.NumericTextBox(this.components);
-            this.textHours1 = new numericTextBox.NumericTextBox(this.components);
-            this.textDay1 = new numericTextBox.NumericTextBox(this.components);
+            this.textDalnZnosuKul = new System.Windows.Forms.TextBox();
+            this.textAW0_1 = new System.Windows.Forms.TextBox();
+            this.textT0_1 = new System.Windows.Forms.TextBox();
+            this.textH0_1 = new System.Windows.Forms.TextBox();
+            this.textHmc1 = new System.Windows.Forms.TextBox();
+            this.textMinutes1 = new System.Windows.Forms.TextBox();
+            this.textHours1 = new System.Windows.Forms.TextBox();
+            this.textDay1 = new System.Windows.Forms.TextBox();
+            this.button33 = new System.Windows.Forms.Button();
+            this.labelM = new System.Windows.Forms.Label();
+            this.labelDalnistZnosuKul = new System.Windows.Forms.Label();
             this.label254 = new System.Windows.Forms.Label();
             this.label255 = new System.Windows.Forms.Label();
             this.label256 = new System.Windows.Forms.Label();
@@ -727,9 +738,6 @@ namespace SkladannyaBuletnya
             this.label263 = new System.Windows.Forms.Label();
             this.label264 = new System.Windows.Forms.Label();
             this.label265 = new System.Windows.Forms.Label();
-            this.button33 = new System.Windows.Forms.Button();
-            this.labelM = new System.Windows.Forms.Label();
-            this.labelDalnistZnosuKul = new System.Windows.Forms.Label();
             this.label266 = new System.Windows.Forms.Label();
             this.label267 = new System.Windows.Forms.Label();
             this.label268 = new System.Windows.Forms.Label();
@@ -767,18 +775,10 @@ namespace SkladannyaBuletnya
             this.label_2 = new System.Windows.Forms.Label();
             this.label_1 = new System.Windows.Forms.Label();
             this.labelMeteoSer = new System.Windows.Forms.Label();
-            this.label270 = new System.Windows.Forms.Label();
-            this.textBulletin = new System.Windows.Forms.TextBox();
-            this.buttonDMK = new System.Windows.Forms.Button();
-            this.buttonMeteoSer = new System.Windows.Forms.Button();
-            this.buttonVR2 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.numericTextBox113 = new numericTextBox.NumericTextBox(this.components);
             this.numericTextBox114 = new numericTextBox.NumericTextBox(this.components);
             this.numericTextBox112 = new numericTextBox.NumericTextBox(this.components);
-            this.textH01 = new numericTextBox.NumericTextBox(this.components);
-            this.textT01 = new numericTextBox.NumericTextBox(this.components);
-            this.textAW01 = new numericTextBox.NumericTextBox(this.components);
             this.contextNaCil.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel.SuspendLayout();
@@ -7612,12 +7612,12 @@ namespace SkladannyaBuletnya
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.BackColor = System.Drawing.Color.SkyBlue;
             this.tabPage1.Controls.Add(this.zastosuvaty);
-            this.tabPage1.Controls.Add(this.tabControl2);
             this.tabPage1.Controls.Add(this.label270);
             this.tabPage1.Controls.Add(this.textBulletin);
             this.tabPage1.Controls.Add(this.buttonDMK);
             this.tabPage1.Controls.Add(this.buttonMeteoSer);
             this.tabPage1.Controls.Add(this.buttonVR2);
+            this.tabPage1.Controls.Add(this.tabControl2);
             this.errorMain.SetError(this.tabPage1, resources.GetString("tabPage1.Error"));
             this.errorMain.SetIconAlignment(this.tabPage1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabPage1.IconAlignment"))));
             this.errorMain.SetIconPadding(this.tabPage1, ((int)(resources.GetObject("tabPage1.IconPadding"))));
@@ -7631,6 +7631,61 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconPadding(this.zastosuvaty, ((int)(resources.GetObject("zastosuvaty.IconPadding"))));
             this.zastosuvaty.Name = "zastosuvaty";
             this.zastosuvaty.UseVisualStyleBackColor = true;
+            // 
+            // label270
+            // 
+            resources.ApplyResources(this.label270, "label270");
+            this.errorMain.SetError(this.label270, resources.GetString("label270.Error"));
+            this.errorMain.SetIconAlignment(this.label270, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label270.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.label270, ((int)(resources.GetObject("label270.IconPadding"))));
+            this.label270.Name = "label270";
+            // 
+            // textBulletin
+            // 
+            resources.ApplyResources(this.textBulletin, "textBulletin");
+            this.errorMain.SetError(this.textBulletin, resources.GetString("textBulletin.Error"));
+            this.errorMain.SetIconAlignment(this.textBulletin, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textBulletin.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textBulletin, ((int)(resources.GetObject("textBulletin.IconPadding"))));
+            this.textBulletin.Name = "textBulletin";
+            // 
+            // buttonDMK
+            // 
+            resources.ApplyResources(this.buttonDMK, "buttonDMK");
+            this.buttonDMK.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.errorMain.SetError(this.buttonDMK, resources.GetString("buttonDMK.Error"));
+            this.buttonDMK.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.buttonDMK.FlatAppearance.BorderSize = 2;
+            this.errorMain.SetIconAlignment(this.buttonDMK, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonDMK.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.buttonDMK, ((int)(resources.GetObject("buttonDMK.IconPadding"))));
+            this.buttonDMK.Name = "buttonDMK";
+            this.buttonDMK.UseVisualStyleBackColor = false;
+            this.buttonDMK.Click += new System.EventHandler(this.buttonDMK_Click);
+            // 
+            // buttonMeteoSer
+            // 
+            resources.ApplyResources(this.buttonMeteoSer, "buttonMeteoSer");
+            this.buttonMeteoSer.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.errorMain.SetError(this.buttonMeteoSer, resources.GetString("buttonMeteoSer.Error"));
+            this.buttonMeteoSer.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.buttonMeteoSer.FlatAppearance.BorderSize = 2;
+            this.errorMain.SetIconAlignment(this.buttonMeteoSer, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonMeteoSer.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.buttonMeteoSer, ((int)(resources.GetObject("buttonMeteoSer.IconPadding"))));
+            this.buttonMeteoSer.Name = "buttonMeteoSer";
+            this.buttonMeteoSer.UseVisualStyleBackColor = false;
+            this.buttonMeteoSer.Click += new System.EventHandler(this.buttonMeteoSer_Click);
+            // 
+            // buttonVR2
+            // 
+            resources.ApplyResources(this.buttonVR2, "buttonVR2");
+            this.buttonVR2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.errorMain.SetError(this.buttonVR2, resources.GetString("buttonVR2.Error"));
+            this.buttonVR2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.buttonVR2.FlatAppearance.BorderSize = 2;
+            this.errorMain.SetIconAlignment(this.buttonVR2, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonVR2.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.buttonVR2, ((int)(resources.GetObject("buttonVR2.IconPadding"))));
+            this.buttonVR2.Name = "buttonVR2";
+            this.buttonVR2.UseVisualStyleBackColor = false;
+            this.buttonVR2.Click += new System.EventHandler(this.buttonVR2_Click);
             // 
             // tabControl2
             // 
@@ -7902,14 +7957,17 @@ namespace SkladannyaBuletnya
             // tabPage6
             // 
             resources.ApplyResources(this.tabPage6, "tabPage6");
-            this.tabPage6.Controls.Add(this.textAW01);
-            this.tabPage6.Controls.Add(this.textT01);
-            this.tabPage6.Controls.Add(this.textH01);
             this.tabPage6.Controls.Add(this.textDalnZnosuKul);
+            this.tabPage6.Controls.Add(this.textAW0_1);
+            this.tabPage6.Controls.Add(this.textT0_1);
+            this.tabPage6.Controls.Add(this.textH0_1);
             this.tabPage6.Controls.Add(this.textHmc1);
             this.tabPage6.Controls.Add(this.textMinutes1);
             this.tabPage6.Controls.Add(this.textHours1);
             this.tabPage6.Controls.Add(this.textDay1);
+            this.tabPage6.Controls.Add(this.button33);
+            this.tabPage6.Controls.Add(this.labelM);
+            this.tabPage6.Controls.Add(this.labelDalnistZnosuKul);
             this.tabPage6.Controls.Add(this.label254);
             this.tabPage6.Controls.Add(this.label255);
             this.tabPage6.Controls.Add(this.label256);
@@ -7922,9 +7980,6 @@ namespace SkladannyaBuletnya
             this.tabPage6.Controls.Add(this.label263);
             this.tabPage6.Controls.Add(this.label264);
             this.tabPage6.Controls.Add(this.label265);
-            this.tabPage6.Controls.Add(this.button33);
-            this.tabPage6.Controls.Add(this.labelM);
-            this.tabPage6.Controls.Add(this.labelDalnistZnosuKul);
             this.tabPage6.Controls.Add(this.label266);
             this.tabPage6.Controls.Add(this.label267);
             this.tabPage6.Controls.Add(this.label268);
@@ -7941,6 +7996,34 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.textDalnZnosuKul, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textDalnZnosuKul.IconAlignment"))));
             this.errorMain.SetIconPadding(this.textDalnZnosuKul, ((int)(resources.GetObject("textDalnZnosuKul.IconPadding"))));
             this.textDalnZnosuKul.Name = "textDalnZnosuKul";
+            this.textDalnZnosuKul.Validating += new System.ComponentModel.CancelEventHandler(this.textDalnZnosuKul_Validating);
+            // 
+            // textAW0_1
+            // 
+            resources.ApplyResources(this.textAW0_1, "textAW0_1");
+            this.errorMain.SetError(this.textAW0_1, resources.GetString("textAW0_1.Error"));
+            this.errorMain.SetIconAlignment(this.textAW0_1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textAW0_1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textAW0_1, ((int)(resources.GetObject("textAW0_1.IconPadding"))));
+            this.textAW0_1.Name = "textAW0_1";
+            this.textAW0_1.Validating += new System.ComponentModel.CancelEventHandler(this.textW0_Validating);
+            // 
+            // textT0_1
+            // 
+            resources.ApplyResources(this.textT0_1, "textT0_1");
+            this.errorMain.SetError(this.textT0_1, resources.GetString("textT0_1.Error"));
+            this.errorMain.SetIconAlignment(this.textT0_1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textT0_1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textT0_1, ((int)(resources.GetObject("textT0_1.IconPadding"))));
+            this.textT0_1.Name = "textT0_1";
+            this.textT0_1.Validating += new System.ComponentModel.CancelEventHandler(this.textT0_Validating);
+            // 
+            // textH0_1
+            // 
+            resources.ApplyResources(this.textH0_1, "textH0_1");
+            this.errorMain.SetError(this.textH0_1, resources.GetString("textH0_1.Error"));
+            this.errorMain.SetIconAlignment(this.textH0_1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textH0_1.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.textH0_1, ((int)(resources.GetObject("textH0_1.IconPadding"))));
+            this.textH0_1.Name = "textH0_1";
+            this.textH0_1.Validating += new System.ComponentModel.CancelEventHandler(this.textH0_Validating);
             // 
             // textHmc1
             // 
@@ -7949,6 +8032,7 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.textHmc1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textHmc1.IconAlignment"))));
             this.errorMain.SetIconPadding(this.textHmc1, ((int)(resources.GetObject("textHmc1.IconPadding"))));
             this.textHmc1.Name = "textHmc1";
+            this.textHmc1.Validating += new System.ComponentModel.CancelEventHandler(this.textHmc_Validating_1);
             // 
             // textMinutes1
             // 
@@ -7957,6 +8041,7 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.textMinutes1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textMinutes1.IconAlignment"))));
             this.errorMain.SetIconPadding(this.textMinutes1, ((int)(resources.GetObject("textMinutes1.IconPadding"))));
             this.textMinutes1.Name = "textMinutes1";
+            this.textMinutes1.Validating += new System.ComponentModel.CancelEventHandler(this.textMinutes_Validating);
             // 
             // textHours1
             // 
@@ -7965,6 +8050,7 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.textHours1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textHours1.IconAlignment"))));
             this.errorMain.SetIconPadding(this.textHours1, ((int)(resources.GetObject("textHours1.IconPadding"))));
             this.textHours1.Name = "textHours1";
+            this.textHours1.Validating += new System.ComponentModel.CancelEventHandler(this.textHours_Validating);
             // 
             // textDay1
             // 
@@ -7973,6 +8059,34 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.textDay1, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textDay1.IconAlignment"))));
             this.errorMain.SetIconPadding(this.textDay1, ((int)(resources.GetObject("textDay1.IconPadding"))));
             this.textDay1.Name = "textDay1";
+            this.textDay1.Validating += new System.ComponentModel.CancelEventHandler(this.textDay_Validating);
+            // 
+            // button33
+            // 
+            resources.ApplyResources(this.button33, "button33");
+            this.button33.AutoEllipsis = true;
+            this.errorMain.SetError(this.button33, resources.GetString("button33.Error"));
+            this.errorMain.SetIconAlignment(this.button33, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("button33.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.button33, ((int)(resources.GetObject("button33.IconPadding"))));
+            this.button33.Name = "button33";
+            this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
+            // 
+            // labelM
+            // 
+            resources.ApplyResources(this.labelM, "labelM");
+            this.errorMain.SetError(this.labelM, resources.GetString("labelM.Error"));
+            this.errorMain.SetIconAlignment(this.labelM, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelM.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelM, ((int)(resources.GetObject("labelM.IconPadding"))));
+            this.labelM.Name = "labelM";
+            // 
+            // labelDalnistZnosuKul
+            // 
+            resources.ApplyResources(this.labelDalnistZnosuKul, "labelDalnistZnosuKul");
+            this.errorMain.SetError(this.labelDalnistZnosuKul, resources.GetString("labelDalnistZnosuKul.Error"));
+            this.errorMain.SetIconAlignment(this.labelDalnistZnosuKul, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelDalnistZnosuKul.IconAlignment"))));
+            this.errorMain.SetIconPadding(this.labelDalnistZnosuKul, ((int)(resources.GetObject("labelDalnistZnosuKul.IconPadding"))));
+            this.labelDalnistZnosuKul.Name = "labelDalnistZnosuKul";
             // 
             // label254
             // 
@@ -8070,33 +8184,6 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconPadding(this.label265, ((int)(resources.GetObject("label265.IconPadding"))));
             this.label265.Name = "label265";
             // 
-            // button33
-            // 
-            resources.ApplyResources(this.button33, "button33");
-            this.button33.AutoEllipsis = true;
-            this.errorMain.SetError(this.button33, resources.GetString("button33.Error"));
-            this.errorMain.SetIconAlignment(this.button33, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("button33.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.button33, ((int)(resources.GetObject("button33.IconPadding"))));
-            this.button33.Name = "button33";
-            this.button33.UseVisualStyleBackColor = true;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
-            // 
-            // labelM
-            // 
-            resources.ApplyResources(this.labelM, "labelM");
-            this.errorMain.SetError(this.labelM, resources.GetString("labelM.Error"));
-            this.errorMain.SetIconAlignment(this.labelM, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelM.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.labelM, ((int)(resources.GetObject("labelM.IconPadding"))));
-            this.labelM.Name = "labelM";
-            // 
-            // labelDalnistZnosuKul
-            // 
-            resources.ApplyResources(this.labelDalnistZnosuKul, "labelDalnistZnosuKul");
-            this.errorMain.SetError(this.labelDalnistZnosuKul, resources.GetString("labelDalnistZnosuKul.Error"));
-            this.errorMain.SetIconAlignment(this.labelDalnistZnosuKul, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("labelDalnistZnosuKul.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.labelDalnistZnosuKul, ((int)(resources.GetObject("labelDalnistZnosuKul.IconPadding"))));
-            this.labelDalnistZnosuKul.Name = "labelDalnistZnosuKul";
-            // 
             // label266
             // 
             resources.ApplyResources(this.label266, "label266");
@@ -8162,7 +8249,6 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.tabPage7, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("tabPage7.IconAlignment"))));
             this.errorMain.SetIconPadding(this.tabPage7, ((int)(resources.GetObject("tabPage7.IconPadding"))));
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
             // 
             // value_t_dlW_Wy_11
             // 
@@ -8430,61 +8516,6 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconPadding(this.labelMeteoSer, ((int)(resources.GetObject("labelMeteoSer.IconPadding"))));
             this.labelMeteoSer.Name = "labelMeteoSer";
             // 
-            // label270
-            // 
-            resources.ApplyResources(this.label270, "label270");
-            this.errorMain.SetError(this.label270, resources.GetString("label270.Error"));
-            this.errorMain.SetIconAlignment(this.label270, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("label270.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.label270, ((int)(resources.GetObject("label270.IconPadding"))));
-            this.label270.Name = "label270";
-            // 
-            // textBulletin
-            // 
-            resources.ApplyResources(this.textBulletin, "textBulletin");
-            this.errorMain.SetError(this.textBulletin, resources.GetString("textBulletin.Error"));
-            this.errorMain.SetIconAlignment(this.textBulletin, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textBulletin.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.textBulletin, ((int)(resources.GetObject("textBulletin.IconPadding"))));
-            this.textBulletin.Name = "textBulletin";
-            // 
-            // buttonDMK
-            // 
-            resources.ApplyResources(this.buttonDMK, "buttonDMK");
-            this.buttonDMK.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.errorMain.SetError(this.buttonDMK, resources.GetString("buttonDMK.Error"));
-            this.buttonDMK.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.buttonDMK.FlatAppearance.BorderSize = 2;
-            this.errorMain.SetIconAlignment(this.buttonDMK, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonDMK.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.buttonDMK, ((int)(resources.GetObject("buttonDMK.IconPadding"))));
-            this.buttonDMK.Name = "buttonDMK";
-            this.buttonDMK.UseVisualStyleBackColor = false;
-            this.buttonDMK.Click += new System.EventHandler(this.button_DMK_Click);
-            // 
-            // buttonMeteoSer
-            // 
-            resources.ApplyResources(this.buttonMeteoSer, "buttonMeteoSer");
-            this.buttonMeteoSer.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.errorMain.SetError(this.buttonMeteoSer, resources.GetString("buttonMeteoSer.Error"));
-            this.buttonMeteoSer.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.buttonMeteoSer.FlatAppearance.BorderSize = 2;
-            this.errorMain.SetIconAlignment(this.buttonMeteoSer, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonMeteoSer.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.buttonMeteoSer, ((int)(resources.GetObject("buttonMeteoSer.IconPadding"))));
-            this.buttonMeteoSer.Name = "buttonMeteoSer";
-            this.buttonMeteoSer.UseVisualStyleBackColor = false;
-            this.buttonMeteoSer.Click += new System.EventHandler(this.buttonMeteoSer_Click);
-            // 
-            // buttonVR2
-            // 
-            resources.ApplyResources(this.buttonVR2, "buttonVR2");
-            this.buttonVR2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.errorMain.SetError(this.buttonVR2, resources.GetString("buttonVR2.Error"));
-            this.buttonVR2.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.buttonVR2.FlatAppearance.BorderSize = 2;
-            this.errorMain.SetIconAlignment(this.buttonVR2, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("buttonVR2.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.buttonVR2, ((int)(resources.GetObject("buttonVR2.IconPadding"))));
-            this.buttonVR2.Name = "buttonVR2";
-            this.buttonVR2.UseVisualStyleBackColor = false;
-            this.buttonVR2.Click += new System.EventHandler(this.buttonVR2_Click);
-            // 
             // tabControl1
             // 
             resources.ApplyResources(this.tabControl1, "tabControl1");
@@ -8522,30 +8553,6 @@ namespace SkladannyaBuletnya
             this.errorMain.SetIconAlignment(this.numericTextBox112, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("numericTextBox112.IconAlignment"))));
             this.errorMain.SetIconPadding(this.numericTextBox112, ((int)(resources.GetObject("numericTextBox112.IconPadding"))));
             this.numericTextBox112.Name = "numericTextBox112";
-            // 
-            // textH01
-            // 
-            resources.ApplyResources(this.textH01, "textH01");
-            this.errorMain.SetError(this.textH01, resources.GetString("textH01.Error"));
-            this.errorMain.SetIconAlignment(this.textH01, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textH01.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.textH01, ((int)(resources.GetObject("textH01.IconPadding"))));
-            this.textH01.Name = "textH01";
-            // 
-            // textT01
-            // 
-            resources.ApplyResources(this.textT01, "textT01");
-            this.errorMain.SetError(this.textT01, resources.GetString("textT01.Error"));
-            this.errorMain.SetIconAlignment(this.textT01, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textT01.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.textT01, ((int)(resources.GetObject("textT01.IconPadding"))));
-            this.textT01.Name = "textT01";
-            // 
-            // textAW01
-            // 
-            resources.ApplyResources(this.textAW01, "textAW01");
-            this.errorMain.SetError(this.textAW01, resources.GetString("textAW01.Error"));
-            this.errorMain.SetIconAlignment(this.textAW01, ((System.Windows.Forms.ErrorIconAlignment)(resources.GetObject("textAW01.IconAlignment"))));
-            this.errorMain.SetIconPadding(this.textAW01, ((int)(resources.GetObject("textAW01.IconPadding"))));
-            this.textAW01.Name = "textAW01";
             // 
             // Meteonablyzheniy
             // 
@@ -8717,9 +8724,6 @@ namespace SkladannyaBuletnya
         private ErrorProvider errorMain;
         private TabControl tabControl1;
         private TabPage tabPage1;
-        private Button buttonDMK;
-        private Button buttonMeteoSer;
-        private Button buttonVR2;
         private TabPage tabBP;
         private DataGridView dataGridView2;
         private DataGridViewTextBoxColumn Side;
@@ -9283,7 +9287,15 @@ namespace SkladannyaBuletnya
         private Button buttonDTM75;
         private Button buttonRGM2;
         private Button buttonZastKomStarNach;
+        private numericTextBox.NumericTextBox numericTextBox113;
+        private numericTextBox.NumericTextBox numericTextBox114;
+        private numericTextBox.NumericTextBox numericTextBox112;
         private Button zastosuvaty;
+        private Label label270;
+        private TextBox textBulletin;
+        private Button buttonDMK;
+        private Button buttonMeteoSer;
+        private Button buttonVR2;
         private TabControl tabControl2;
         private TabPage tabPage4;
         private numericTextBox.NumericTextBox textAW0;
@@ -9313,9 +9325,29 @@ namespace SkladannyaBuletnya
         private Label label252;
         private Label label253;
         private TabPage tabPage6;
+        private TextBox textDalnZnosuKul;
+        private TextBox textAW0_1;
+        private TextBox textT0_1;
+        private TextBox textH0_1;
+        private TextBox textHmc1;
+        private TextBox textMinutes1;
+        private TextBox textHours1;
+        private TextBox textDay1;
         private Button button33;
         private Label labelM;
         private Label labelDalnistZnosuKul;
+        private Label label254;
+        private Label label255;
+        private Label label256;
+        private Label label257;
+        private Label label258;
+        private Label label259;
+        private Label label260;
+        private Label label261;
+        private Label label262;
+        private Label label263;
+        private Label label264;
+        private Label label265;
         private Label label266;
         private Label label267;
         private Label label268;
@@ -9353,31 +9385,6 @@ namespace SkladannyaBuletnya
         private Label label_2;
         private Label label_1;
         private Label labelMeteoSer;
-        private Label label270;
-        private TextBox textBulletin;
-        private numericTextBox.NumericTextBox textDalnZnosuKul;
-        private numericTextBox.NumericTextBox textHmc1;
-        private numericTextBox.NumericTextBox textMinutes1;
-        private numericTextBox.NumericTextBox textHours1;
-        private numericTextBox.NumericTextBox textDay1;
-        private Label label254;
-        private Label label255;
-        private Label label256;
-        private Label label257;
-        private Label label258;
-        private Label label259;
-        private Label label260;
-        private Label label261;
-        private Label label262;
-        private Label label263;
-        private Label label264;
-        private Label label265;
-        private numericTextBox.NumericTextBox numericTextBox113;
-        private numericTextBox.NumericTextBox numericTextBox114;
-        private numericTextBox.NumericTextBox numericTextBox112;
-        private numericTextBox.NumericTextBox textT01;
-        private numericTextBox.NumericTextBox textH01;
-        private numericTextBox.NumericTextBox textAW01;
     }
 }
 

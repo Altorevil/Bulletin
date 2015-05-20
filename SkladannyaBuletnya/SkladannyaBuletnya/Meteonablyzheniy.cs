@@ -78,7 +78,7 @@ namespace SkladannyaBuletnya
 
         #region Метеонаближений
 
-        private void button_DMK_Click(object sender, EventArgs e) //Виклик форми "ДМК"
+        private void buttonDMK_Click(object sender, EventArgs e) //Виклик форми "ДМК"
         {
             buttonDMK.BackColor = Color.LightCoral;
             buttonVR2.BackColor = Color.WhiteSmoke;
@@ -215,11 +215,11 @@ namespace SkladannyaBuletnya
 
                 int Hmc = Convert.ToInt32(textHmc1.Text);
 
-                int H0 = Convert.ToInt32(textH01.Text);
+                int H0 = Convert.ToInt32(textH0_1.Text);
 
-                int t0 = Convert.ToInt32(textT01.Text);
+                int t0 = Convert.ToInt32(textT0_1.Text);
 
-                Double aW0 = Convert.ToDouble(textAW01.Text);
+                Double aW0 = Convert.ToDouble(textAW0_1.Text);
                 aW0 = Math.Round(aW0 / 6); //Переведення в радіани
 
                 Double[] delTauY = new Double[9];
@@ -460,31 +460,6 @@ namespace SkladannyaBuletnya
             }
         }
 
-
-        private void name_of_station_Validating(object sender, CancelEventArgs e)
-        {
-            if (name_of_station.Text.Length != 0)
-            {
-
-                int numer_station = Convert.ToInt32(name_of_station.Text.Length);
-                if (numer_station >4 || numer_station <4)
-                {
-                    this.errorMain.SetError(name_of_station, "Введено забагато чисел  \n                                     0-9999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(name_of_station, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(name_of_station, "Введіть номер станції");
-                e.Cancel = true;
-            }
-
-        }
-
         private void textDay_Validating(object sender, CancelEventArgs e)
         {
             if (textDay.Text.Length != 0)
@@ -668,288 +643,17 @@ namespace SkladannyaBuletnya
                 int dzk = Convert.ToInt32(textDalnZnosuKul.Text);
                 if (dzk < 0 || dzk > 150)
                 {
-                    errorMain.SetError(textDalnZnosuKul, "Введено невірне значення дальності зносу куль \n                                    0-150");
+                    this.errorMain.SetError(textDalnZnosuKul, "Введено невірне значення дальності зносу куль \n                                    0-150");
                     e.Cancel = true;
                 }
                 else
                 {
-                    errorMain.SetError(textDalnZnosuKul, "");
+                    this.errorMain.SetError(textDalnZnosuKul, "");
                 }
             }
             else
             {
-                errorMain.SetError(textDalnZnosuKul, "Введіть значення дальності зносу куль");
-                e.Cancel = true;
-            }
-        }
-
-        private void text_delH_delt0_Validating(object sender, CancelEventArgs e)
-        {
-            if (text_delH_delt0.Text.Length != 0)
-            {
-                int h_t = Convert.ToInt32(text_delH_delt0.Text);
-
-                int tem = h_t % 100;
-                h_t = h_t / 100;
-                int del_h = h_t % 1000;
-
-                h_t = Convert.ToInt32(text_delH_delt0.Text.Length);
-
-                if ((tem == 50 || del_h < 0 || del_h > 750||(del_h > 50 && del_h < 501)) || h_t != 5)/*del_h > 74 */
-                {
-                    this.errorMain.SetError(text_delH_delt0, "Введено невірне значення. Наприклад 64858, h=648 t=58 , де t не повино дорівнювати 50, \n а 0<=h<=50 i 501=<h<=750, або забагато цифр ");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(text_delH_delt0, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(text_delH_delt0, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_1_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_1.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_1.Text.Length);
-                if (del!=6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_1, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_1, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_1, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_2_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_2.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_2.Text.Length);
-                if (del != 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_2, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_2, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_2, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_3_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_3.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_3.Text.Length);
-                if (del != 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_3, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_3, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_3, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_4_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_4.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_4.Text.Length);
-                if (del != 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_4, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_4, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_4, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_5_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_5.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_5.Text.Length);
-                if (del != 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_5, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_5, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_5, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_6_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_6.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_6.Text.Length);
-                if (del!= 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_6, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_6, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_6, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_7_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_7.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_7.Text.Length);
-                if (del!= 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_7, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_7, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_7, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_8_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_8.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_8.Text.Length);
-                if (del != 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_8, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_8, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_8, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_9_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_9.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_9.Text.Length);
-                if (del!= 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_9, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_9, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_9, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_10_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_10.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_10.Text.Length);
-                if (del!= 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_10, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_10, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_10, "Введіть значення");
-                e.Cancel = true;
-            }
-        }
-
-        private void value_t_dlW_Wy_11_Validating(object sender, CancelEventArgs e)
-        {
-            if (value_t_dlW_Wy_11.Text.Length != 0)
-            {
-                int del = Convert.ToInt32(value_t_dlW_Wy_11.Text.Length);
-                if (del != 6)
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_11, "Введено невірне значення \n                                    0-999999");
-                    e.Cancel = true;
-                }
-                else
-                {
-                    this.errorMain.SetError(value_t_dlW_Wy_11, "");
-                }
-            }
-            else
-            {
-                this.errorMain.SetError(value_t_dlW_Wy_11, "Введіть значення");
+                this.errorMain.SetError(textDalnZnosuKul, "Введіть значення дальності зносу куль");
                 e.Cancel = true;
             }
         }
@@ -2275,9 +1979,10 @@ namespace SkladannyaBuletnya
                                 textBox8.Text += @"  ";
                             }
                             break;
+                            
                         }
                     }
-                   
+                    stream.Close();
                 }
             }
         }

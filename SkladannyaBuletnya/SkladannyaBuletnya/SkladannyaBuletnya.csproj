@@ -52,10 +52,11 @@
     <OutputPath>bin\x86\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -71,6 +72,9 @@
     <Reference Include="EPPlus, Version=4.0.2.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>lib\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="libxl.net">
+      <HintPath>..\..\net\libxl.net.dll</HintPath>
     </Reference>
     <Reference Include="NumericTextBox">
       <HintPath>..\..\..\NumericTextBox\NumericTextBox\bin\Debug\NumericTextBox.dll</HintPath>
@@ -88,12 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DannieCeli.cs" />
-    <Compile Include="DMK.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DMK.Designer.cs">
-      <DependentUpon>DMK.cs</DependentUpon>
-    </Compile>
     <Compile Include="GarmataUstanovka.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +112,7 @@
     </Compile>
     <Compile Include="lib\Dashboard.cs" />
     <Compile Include="lib\Meteoseredniy_iterpol.cs" />
+    <Compile Include="lib\RVDS.cs" />
     <Compile Include="lib\Table5.cs" />
     <Compile Include="lib\TableUtils.cs" />
     <Compile Include="lib\TableVR2.cs" />
@@ -134,21 +133,12 @@
     <Compile Include="lib\Table1.cs" />
     <Compile Include="lib\Table3.cs" />
     <Compile Include="lib\Table4.cs" />
-    <Compile Include="VR2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VR2.Designer.cs">
-      <DependentUpon>VR2.cs</DependentUpon>
-    </Compile>
     <Compile Include="VytrataNaGarmatu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VytrataNaGarmatu.Designer.cs">
       <DependentUpon>VytrataNaGarmatu.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="DMK.resx">
-      <DependentUpon>DMK.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GarmataUstanovka.resx">
       <DependentUpon>GarmataUstanovka.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +154,9 @@
     <EmbeddedResource Include="Meteonablyzheniy.tr.resx">
       <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Meteonablyzheniy.uk-UA.resx">
+      <DependentUpon>Meteonablyzheniy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Meteoseredniy.resx">
       <DependentUpon>Meteoseredniy.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,9 +170,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="VR2.resx">
-      <DependentUpon>VR2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VytrataNaGarmatu.resx">
       <DependentUpon>VytrataNaGarmatu.cs</DependentUpon>
     </EmbeddedResource>
